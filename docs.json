@@ -40,6 +40,24 @@
               "design-circle/user-guide",
               "design-circle/custom-circle"
             ]
+          },
+          {
+            "group": "Hướng dẫn dành cho người dùng mới",
+            "pages": [
+              {
+                "group": "Hướng dẫn sử dụng website",
+                "pages": [
+                  "huong-dan-nguoi-dung-moi/huong-dan-su-dung-website/dang-ky-tai-khoan",
+                  "huong-dan-nguoi-dung-moi/huong-dan-su-dung-website/dang-ky-dai-ly-affiliate"
+                ]
+              },
+              {
+                "group": "Sử dụng phần mềm cơ bản",
+                "pages": []
+              },
+              "huong-dan-nguoi-dung-moi/bat-dau-su-dung",
+              "huong-dan-nguoi-dung-moi/gioi-thieu-phan-mem"
+            ]
           }
         ]
       },
