@@ -31,6 +31,15 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+          {
+            "group": "Design Circle",
+            "pages": [
+              "design-circle/introduction",
+              "design-circle/use-cases",
+              "design-circle/user-guide",
+              "design-circle/custom-circle"
+            ]
           }
         ]
       },
