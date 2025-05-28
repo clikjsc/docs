@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "logo/logo Jega.png",
   "navigation": {
     "tabs": [
       {
@@ -57,6 +57,83 @@
               },
               "huong-dan-nguoi-dung-moi/bat-dau-su-dung",
               "huong-dan-nguoi-dung-moi/gioi-thieu-phan-mem"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Trung tâm hướng dẫn",
+        "groups": [
+          {
+            "group": "Tổng quan",
+            "pages": [
+              "trung-tam-huong-dan/tong-quan/gioi-thieu",
+              "trung-tam-huong-dan/tong-quan/bat-dau-nhanh"
+            ]
+          },
+          {
+            "group": "Hướng dẫn người dùng mới",
+            "pages": [
+              "trung-tam-huong-dan/huong-dan-nguoi-dung-moi/dang-ky-tai-khoan",
+              "trung-tam-huong-dan/huong-dan-nguoi-dung-moi/thiet-lap-tai-khoan",
+              "trung-tam-huong-dan/huong-dan-nguoi-dung-moi/giao-dien-co-ban"
+            ]
+          },
+          {
+            "group": "Thiết kế xây dựng",
+            "pages": [
+              "trung-tam-huong-dan/thiet-ke-xay-dung/tao-mat-bang",
+              "trung-tam-huong-dan/thiet-ke-xay-dung/chinh-sua-mat-bang",
+              "trung-tam-huong-dan/thiet-ke-xay-dung/tao-vach-ngan"
+            ]
+          },
+          {
+            "group": "Thao tác cơ bản",
+            "pages": [
+              "trung-tam-huong-dan/thao-tac-co-ban/hieu-ung-mo-hinh",
+              "trung-tam-huong-dan/thao-tac-co-ban/quan-ly-khong-gian",
+              "trung-tam-huong-dan/thao-tac-co-ban/cong-cu-chinh-sua"
+            ]
+          },
+          {
+            "group": "Tùy chỉnh nội thất",
+            "pages": [
+              "trung-tam-huong-dan/tuy-chinh-noi-that/bo-cuc-phong",
+              "trung-tam-huong-dan/tuy-chinh-noi-that/tu-do-noi-that"
+            ]
+          },
+          {
+            "group": "Kết xuất",
+            "pages": [
+              "trung-tam-huong-dan/ket-xuat/ket-xuat-hinh-anh",
+              {
+                "group": "Vẽ AI",
+                "pages": []
+              }
+            ]
+          },
+          {
+            "group": "Vật liệu thiết kế",
+            "pages": []
+          },
+          {
+            "group": "Báo giá và xuất bản vẽ",
+            "pages": []
+          },
+          {
+            "group": "Phần mềm nâng cao",
+            "pages": []
+          },
+          {
+            "group": "Cập nhật hàng tháng",
+            "pages": [
+              "trung-tam-huong-dan/cap-nhat-hang-thang/2025-05"
+            ]
+          },
+          {
+            "group": "Hỏi đáp",
+            "pages": [
+              "trung-tam-huong-dan/hoi-dap/cau-hoi-thuong-gap"
             ]
           }
         ]
