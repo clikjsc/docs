@@ -1,0 +1,326 @@
+---
+title: 'Thiết lập kết xuất 3D - Cài đặt render cho thiết kế nội thất'
+description: 'Hướng dẫn chi tiết về cách thiết lập các tham số kết xuất (render) để tạo hình ảnh thiết kế nội thất 3D chất lượng cao với JEGA AiHouse'
+icon: 'sliders'
+---
+
+# Thiết lập kết xuất cho thiết kế nội thất 3D
+
+Thiết lập kết xuất đúng cách là yếu tố quan trọng để tạo ra những hình ảnh 3D chất lượng cao. Bài viết này hướng dẫn chi tiết cách thiết lập các tham số kết xuất trong JEGA AiHouse để đạt được kết quả tối ưu.
+
+## Tổng quan về quy trình thiết lập
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/quy-trinh-thiet-lap.jpg" 
+    alt="Quy trình thiết lập kết xuất trong JEGA AiHouse" 
+  />
+</Frame>
+
+Quy trình thiết lập kết xuất bao gồm các bước chính sau:
+1. Thiết lập góc camera và bố cục
+2. Điều chỉnh ánh sáng và môi trường
+3. Cài đặt chất lượng và độ phân giải
+4. Thiết lập hiệu ứng hậu kỳ
+5. Cấu hình tham số kỹ thuật
+
+## Thiết lập góc camera và bố cục
+
+### Chọn vị trí camera hiệu quả
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/vi-tri-camera.jpg" 
+    alt="Vị trí camera hiệu quả trong JEGA AiHouse" 
+  />
+</Frame>
+
+Để có góc nhìn tốt nhất cho không gian:
+- **Chiều cao mắt người**: Đặt camera ở độ cao 1.6-1.7m để có góc nhìn tự nhiên
+- **Quy tắc 1/3**: Đặt các điểm quan trọng tại giao điểm của lưới 3x3
+- **Tránh méo**: Không đặt camera quá gần các đối tượng để tránh hiệu ứng méo góc rộng
+- **Góc nhìn đa dạng**: Thử nhiều góc nhìn khác nhau để chọn ra góc tốt nhất
+
+Các bước thực hiện:
+1. Chọn tab "Camera" trong bảng điều khiển
+2. Chọn "Tạo camera mới" hoặc điều chỉnh camera hiện có
+3. Sử dụng công cụ điều hướng để định vị camera
+4. Điều chỉnh góc nhìn bằng cách kéo và xoay
+
+### Thiết lập tỷ lệ khung hình
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/ty-le-khung-hinh.jpg" 
+    alt="Thiết lập tỷ lệ khung hình trong JEGA AiHouse" 
+  />
+</Frame>
+
+Chọn tỷ lệ khung hình phù hợp với mục đích sử dụng:
+- **16:9**: Tiêu chuẩn cho trình chiếu và video
+- **4:3**: Định dạng truyền thống
+- **1:1**: Lý tưởng cho mạng xã hội như Instagram
+- **9:16**: Tối ưu cho điện thoại và Stories
+- **21:9**: Định dạng rộng cho thiết kế panorama
+
+## Điều chỉnh ánh sáng và môi trường
+
+### Thiết lập môi trường
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/moi-truong-hdri.jpg" 
+    alt="Thiết lập môi trường HDRI trong JEGA AiHouse" 
+  />
+</Frame>
+
+Chọn nguồn sáng môi trường phù hợp:
+- **HDRI (High Dynamic Range Imaging)**: Tạo ánh sáng tự nhiên và phản chiếu chân thực
+- **Môi trường đơn giản**: Sử dụng màu nền hoặc gradient cho kết xuất nhanh
+- **Môi trường ngoài trời/trong nhà**: Chọn tùy theo cảnh đang thiết kế
+
+Các bước thiết lập HDRI:
+1. Chọn tab "Môi trường" trong bảng điều khiển
+2. Chọn "HDRI" làm loại môi trường
+3. Chọn file HDRI từ thư viện hoặc tải lên file tùy chỉnh
+4. Điều chỉnh cường độ, xoay, và vị trí HDRI
+
+### Thiết lập nguồn sáng
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/nguon-sang.jpg" 
+    alt="Thiết lập nguồn sáng trong JEGA AiHouse" 
+  />
+</Frame>
+
+Thêm và điều chỉnh các nguồn sáng:
+- **Đèn điểm (Point Light)**: Phát sáng đều theo mọi hướng
+- **Đèn chiếu (Spotlight)**: Tạo chùm sáng có hướng với góc điều chỉnh được
+- **Đèn diện (Area Light)**: Tạo ánh sáng mềm từ một diện tích
+- **Đèn hướng (Directional Light)**: Mô phỏng ánh sáng mặt trời
+
+Mẹo thiết lập ánh sáng hiệu quả:
+- Sử dụng **quy tắc 3 điểm sáng**: Ánh sáng chính, ánh sáng làm mềm, và ánh sáng viền
+- Điều chỉnh **nhiệt độ màu** để tạo không khí (ấm/lạnh)
+- Thêm **ánh sáng điểm nhấn** để làm nổi bật các khu vực quan trọng
+
+## Cài đặt chất lượng và độ phân giải
+
+### Độ phân giải kết xuất
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/do-phan-giai.jpg" 
+    alt="Cài đặt độ phân giải kết xuất trong JEGA AiHouse" 
+  />
+</Frame>
+
+Chọn độ phân giải phù hợp với mục đích sử dụng:
+
+| Độ phân giải | Kích thước (pixels) | Sử dụng phù hợp |
+|--------------|---------------------|-----------------|
+| HD | 1280x720 | Xem trước, web cơ bản |
+| Full HD | 1920x1080 | Web, mạng xã hội, trình chiếu |
+| 2K | 2560x1440 | Trình bày chuyên nghiệp |
+| 4K | 3840x2160 | Marketing, in ấn chất lượng cao |
+| 8K | 7680x4320 | Sản xuất chuyên nghiệp, in khổ lớn |
+
+### Thiết lập chất lượng kết xuất
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/chat-luong-ket-xuat.jpg" 
+    alt="Thiết lập chất lượng kết xuất trong JEGA AiHouse" 
+  />
+</Frame>
+
+Điều chỉnh các tham số chất lượng:
+- **Số lượng mẫu (Samples)**: Càng cao càng mượt nhưng thời gian kết xuất lâu hơn
+- **Độ sâu phản xạ/khúc xạ**: Kiểm soát chất lượng phản xạ và khúc xạ ánh sáng
+- **Khử răng cưa (Anti-aliasing)**: Làm mượt các cạnh
+- **Caustics**: Mô phỏng hiệu ứng ánh sáng qua vật liệu trong suốt
+- **Subsurface Scattering**: Mô phỏng ánh sáng xuyên qua vật liệu mỏng
+
+Cài đặt chất lượng theo mục đích:
+1. **Xem trước nhanh**: Samples thấp (64-128), tắt caustics và SSS
+2. **Chất lượng trung bình**: 256-512 samples, bật anti-aliasing
+3. **Chất lượng cao**: 1024+ samples, bật tất cả các hiệu ứng
+
+## Thiết lập hiệu ứng hậu kỳ
+
+### Độ sâu trường ảnh (Depth of Field)
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/do-sau-truong-anh.jpg" 
+    alt="Thiết lập độ sâu trường ảnh trong JEGA AiHouse" 
+  />
+</Frame>
+
+Tạo hiệu ứng xóa phông tự nhiên:
+- **Điểm lấy nét**: Chọn vị trí hoặc đối tượng bạn muốn giữ nét
+- **Khẩu độ (F-stop)**: Giá trị nhỏ (f/1.4 - f/2.8) tạo xóa phông mạnh, giá trị lớn (f/8 - f/22) tạo độ nét toàn cảnh
+- **Khoảng cách lấy nét**: Điều chỉnh khoảng cách từ camera đến điểm lấy nét
+
+### Hiệu ứng màu sắc và tông màu
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/hieu-ung-mau-sac.jpg" 
+    alt="Hiệu ứng màu sắc và tông màu trong JEGA AiHouse" 
+  />
+</Frame>
+
+Điều chỉnh các hiệu ứng màu sắc:
+- **Đường cong màu (Curves)**: Điều chỉnh độ tương phản và dải tông màu
+- **Color Balance**: Điều chỉnh cân bằng giữa các kênh màu
+- **Bão hòa (Saturation)**: Tăng hoặc giảm độ đậm của màu sắc
+- **Độ sáng/Độ tương phản**: Tinh chỉnh độ sáng tổng thể
+
+### Hiệu ứng hậu kỳ nâng cao
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/hieu-ung-nang-cao.jpg" 
+    alt="Hiệu ứng hậu kỳ nâng cao trong JEGA AiHouse" 
+  />
+</Frame>
+
+Thêm các hiệu ứng đặc biệt:
+- **Bloom**: Tạo hiệu ứng lóe sáng cho các vùng sáng
+- **Lens Flare**: Tạo hiệu ứng ánh sáng từ nguồn sáng mạnh
+- **Chromatic Aberration**: Tạo hiệu ứng sai màu ở mép
+- **Vignette**: Làm tối các góc của hình ảnh
+- **Film Grain**: Thêm hiệu ứng hạt để tạo cảm giác hoài cổ
+
+## Cấu hình tham số kỹ thuật
+
+### Cài đặt công cụ kết xuất
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/cong-cu-ket-xuat.jpg" 
+    alt="Cài đặt công cụ kết xuất trong JEGA AiHouse" 
+  />
+</Frame>
+
+Chọn và cấu hình công cụ kết xuất:
+- **JEGA Ray Tracer**: Công cụ mặc định, cân bằng giữa tốc độ và chất lượng
+- **Path Tracer**: Cho kết quả chân thực nhất, nhưng chậm hơn
+- **AI Denoiser**: Sử dụng AI để khử nhiễu, giảm thời gian kết xuất
+- **Hybrid Rendering**: Kết hợp ray tracing và rasterization
+
+### Tối ưu hóa hiệu suất
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/toi-uu-hieu-suat.jpg" 
+    alt="Tối ưu hóa hiệu suất kết xuất trong JEGA AiHouse" 
+  />
+</Frame>
+
+Cài đặt để tối ưu hiệu suất:
+- **Tile Size**: Kích thước các ô khi kết xuất, thường 32x32 hoặc 64x64 là hiệu quả
+- **Device Selection**: Chọn GPU hoặc CPU tùy theo phần cứng của bạn
+- **Memory Limit**: Giới hạn bộ nhớ sử dụng để tránh crash
+- **Denoising**: Bật khử nhiễu AI để giảm số lượng mẫu cần thiết
+
+### Lưu và tải thiết lập kết xuất
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/luu-thiet-lap.jpg" 
+    alt="Lưu và tải thiết lập kết xuất trong JEGA AiHouse" 
+  />
+</Frame>
+
+Quản lý các thiết lập kết xuất:
+- **Lưu thiết lập**: Lưu các cấu hình bạn thường xuyên sử dụng
+- **Tải thiết lập**: Nhanh chóng áp dụng thiết lập đã lưu
+- **Thiết lập mặc định**: Khôi phục về cấu hình gốc
+- **Chia sẻ thiết lập**: Xuất và nhập thiết lập để chia sẻ với đồng nghiệp
+
+## Thiết lập kết xuất cho các không gian cụ thể
+
+### Phòng khách
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/thiet-lap-phong-khach.jpg" 
+    alt="Thiết lập kết xuất cho phòng khách trong JEGA AiHouse" 
+  />
+</Frame>
+
+Cài đặt đề xuất:
+- **Góc camera**: Từ góc phòng hoặc đối diện với khu vực sofa chính
+- **Chiều cao camera**: 1.5-1.6m (chiều cao mắt khi ngồi + một chút)
+- **Ánh sáng**: Kết hợp ánh sáng tự nhiên từ cửa sổ và đèn trang trí
+- **Độ sâu trường ảnh**: Nhẹ, tập trung vào khu vực trung tâm
+
+### Phòng bếp
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/thiet-lap-phong-bep.jpg" 
+    alt="Thiết lập kết xuất cho phòng bếp trong JEGA AiHouse" 
+  />
+</Frame>
+
+Cài đặt đề xuất:
+- **Góc camera**: Từ góc phòng, hiển thị đảo bếp và tủ bếp
+- **Chiều cao camera**: 1.6-1.7m (chiều cao mắt đứng)
+- **Ánh sáng**: Đèn downlight, nhấn mạnh ánh sáng tác vụ trên bề mặt làm việc
+- **Hiệu ứng đặc biệt**: Phản xạ cho bề mặt đá và kim loại, caustics cho thủy tinh
+
+### Phòng ngủ
+
+<Frame>
+  <img 
+    src="https://jega.vn/images/vi/render-tutorial/thiet-lap-phong-ngu.jpg" 
+    alt="Thiết lập kết xuất cho phòng ngủ trong JEGA AiHouse" 
+  />
+</Frame>
+
+Cài đặt đề xuất:
+- **Góc camera**: Từ góc phòng, hiển thị giường và khu vực xung quanh
+- **Chiều cao camera**: 1.5-1.6m
+- **Ánh sáng**: Ánh sáng mềm, ấm từ đèn đầu giường, có thể thêm ánh sáng tự nhiên
+- **Tông màu**: Ấm và dịu nhẹ, độ tương phản thấp hơn
+
+## Video hướng dẫn
+
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/example" 
+  title="Hướng dẫn thiết lập kết xuất chuyên nghiệp trong JEGA AiHouse" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen
+></iframe>
+
+## Mẹo từ chuyên gia
+
+1. **Kết xuất thử nghiệm**: Luôn bắt đầu với độ phân giải thấp và ít mẫu để kiểm tra nhanh cài đặt
+2. **Cân nhắc thời gian/chất lượng**: Tùy chọn chất lượng phù hợp với mục đích và thời gian có sẵn
+3. **Lưu thiết lập hay dùng**: Tạo bộ thiết lập cho các loại không gian khác nhau
+4. **Tham khảo tài liệu tham khảo**: Sử dụng hình ảnh tham khảo từ thực tế để đối chiếu
+5. **Cập nhật thường xuyên**: Kiểm tra các bản cập nhật của JEGA AiHouse để có công cụ kết xuất mới nhất
+
+## Câu hỏi thường gặp
+
+### Nên sử dụng thiết lập nào cho kết xuất nhanh?
+Đối với kết xuất nhanh, chọn độ phân giải 720p hoặc 1080p, giảm số lượng mẫu xuống 128-256, tắt các hiệu ứng nâng cao như caustics và subsurface scattering, và bật AI Denoiser.
+
+### Làm thế nào để tạo hiệu ứng ánh sáng tự nhiên?
+Sử dụng HDRI làm nguồn sáng chính, kết hợp với một hoặc hai đèn diện để tạo ánh sáng mềm, và thêm đèn điểm để nhấn mạnh các khu vực quan trọng. Đảm bảo đặt nhiệt độ màu phù hợp với thời gian trong ngày.
+
+### Tại sao hình ảnh của tôi có nhiều hạt?
+Nhiễu hạt thường do số lượng mẫu không đủ. Tăng số lượng mẫu hoặc bật AI Denoiser để giảm nhiễu. Kiểm tra cả các nguồn sáng quá nhỏ hoặc quá mạnh, có thể gây ra nhiễu.
+
+### Làm thế nào để giảm thời gian kết xuất?
+Để giảm thời gian kết xuất: giảm độ phân giải, giảm số lượng mẫu, bật AI Denoiser, đơn giản hóa cảnh bằng cách ẩn các đối tượng không cần thiết, và sử dụng GPU thay vì CPU nếu có thể.
+
+### Có thể lưu thiết lập kết xuất làm mặc định không?
+Có, sau khi cấu hình thiết lập kết xuất ưa thích, bạn có thể lưu làm mặc định bằng cách chọn "Lưu làm mặc định" trong menu cài đặt kết xuất. Thiết lập này sẽ được áp dụng cho tất cả các dự án mới.
