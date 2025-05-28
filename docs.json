@@ -30,6 +30,7 @@
           },
           {
             "group": "Thiết kế xây dựng",
+            "icon": "blueprint",
             "pages": [
               "trung-tam-huong-dan/thiet-ke-xay-dung/tao-mat-bang",
               "trung-tam-huong-dan/thiet-ke-xay-dung/chinh-sua-mat-bang",
@@ -90,16 +91,16 @@
         {
           "anchor": "Website JEGA",
           "href": "https://jega.vn",
-          "icon": "home"
+          "icon": "globe"
         },
         {
           "anchor": "Diễn đàn cộng đồng",
-          "href": "https://forum.jega.vn",
+          "href": "https://www.facebook.com/jega.vn",
           "icon": "users"
         },
         {
           "anchor": "Blog",
-          "href": "https://jega.vn/blog",
+          "href": "https://jega.vn/vi/bo-suu-tap",
           "icon": "newspaper"
         }
       ]
