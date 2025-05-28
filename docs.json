@@ -1,66 +1,15 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "JEGA Việt Nam - Hướng dẫn sử dụng",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0D1C53",
+    "light": "#2E4DB8",
+    "dark": "#0D1C53"
   },
   "favicon": "logo/logo Jega.png",
   "navigation": {
     "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "Design Circle",
-            "pages": [
-              "design-circle/introduction",
-              "design-circle/use-cases",
-              "design-circle/user-guide",
-              "design-circle/custom-circle"
-            ]
-          },
-          {
-            "group": "Hướng dẫn dành cho người dùng mới",
-            "pages": [
-              {
-                "group": "Hướng dẫn sử dụng website",
-                "pages": [
-                  "huong-dan-nguoi-dung-moi/huong-dan-su-dung-website/dang-ky-tai-khoan",
-                  "huong-dan-nguoi-dung-moi/huong-dan-su-dung-website/dang-ky-dai-ly-affiliate"
-                ]
-              },
-              {
-                "group": "Sử dụng phần mềm cơ bản",
-                "pages": []
-              },
-              "huong-dan-nguoi-dung-moi/bat-dau-su-dung",
-              "huong-dan-nguoi-dung-moi/gioi-thieu-phan-mem"
-            ]
-          }
-        ]
-      },
       {
         "tab": "Trung tâm hướng dẫn",
         "groups": [
@@ -99,30 +48,25 @@
             "group": "Tùy chỉnh nội thất",
             "pages": [
               "trung-tam-huong-dan/tuy-chinh-noi-that/bo-cuc-phong",
-              "trung-tam-huong-dan/tuy-chinh-noi-that/tu-do-noi-that"
+              "trung-tam-huong-dan/tuy-chinh-noi-that/tu-do-noi-that",
+              "trung-tam-huong-dan/tuy-chinh-noi-that/cau-hinh-tu-ban",
+              "trung-tam-huong-dan/tuy-chinh-noi-that/cua-va-cua-so",
+              "trung-tam-huong-dan/tuy-chinh-noi-that/tuy-chinh-vat-lieu"
             ]
           },
           {
             "group": "Kết xuất",
             "pages": [
               "trung-tam-huong-dan/ket-xuat/ket-xuat-hinh-anh",
+              "trung-tam-huong-dan/ket-xuat/thiet-lap-ket-xuat",
               {
                 "group": "Vẽ AI",
-                "pages": []
+                "pages": [
+                  "trung-tam-huong-dan/ket-xuat/ve-ai/cong-cu-ban-ve-ai",
+                  "trung-tam-huong-dan/ket-xuat/ve-ai/su-dung-chuc-nang-ve-ai"
+                ]
               }
             ]
-          },
-          {
-            "group": "Vật liệu thiết kế",
-            "pages": []
-          },
-          {
-            "group": "Báo giá và xuất bản vẽ",
-            "pages": []
-          },
-          {
-            "group": "Phần mềm nâng cao",
-            "pages": []
           },
           {
             "group": "Cập nhật hàng tháng",
@@ -133,27 +77,9 @@
           {
             "group": "Hỏi đáp",
             "pages": [
-              "trung-tam-huong-dan/hoi-dap/cau-hoi-thuong-gap"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "trung-tam-huong-dan/hoi-dap/cau-hoi-thuong-gap",
+              "trung-tam-huong-dan/hoi-dap/lien-he-ho-tro",
+              "trung-tam-huong-dan/hoi-dap/video-huong-dan"
             ]
           }
         ]
@@ -162,18 +88,18 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Website JEGA",
+          "href": "https://jega.vn",
+          "icon": "home"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Diễn đàn cộng đồng",
+          "href": "https://forum.jega.vn",
+          "icon": "users"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://jega.vn/blog",
           "icon": "newspaper"
         }
       ]
@@ -181,26 +107,26 @@
   },
   "logo": {
     "light": "/logo/logo Jega.png",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/logo Jega.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Hỗ trợ",
+        "href": "mailto:support@jega.vn"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Đăng nhập",
+      "href": "https://portal.jega.vn/login"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "facebook": "https://facebook.com/JEGAVietNam",
+      "youtube": "https://youtube.com/c/JEGAVietNam",
+      "linkedin": "https://linkedin.com/company/jega-vietnam"
     }
   }
 }
