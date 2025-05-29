@@ -111,7 +111,7 @@ Tài liệu này giúp theo dõi tiến độ tạo nội dung cho trang tài li
 | Cửa và cửa sổ | https://www.aihouse.com/global/help-center/3d-home-design/3623 | 🟢 Hoàn thành |
 | Tùy chỉnh vật liệu | https://www.aihouse.com/global/help-center/3d-home-design/3629 | 🟡 Đang thực hiện |
 | Phân chia bảng | https://www.aihouse.com/global/help-center/3d-home-design/3625 | 🟡 Đang thực hiện |
-| Hệ thống ánh sáng | https://www.aihouse.com/global/help-center/3d-home-design/3625 | 🔴 Chưa bắt đầu |
+| Hệ thống ánh sáng | https://www.aihouse.com/global/help-center/3d-home-design/3625 | 🟡 Đang thực hiện |
 
 ### Kết xuất
 
@@ -126,41 +126,31 @@ Tài liệu này giúp theo dõi tiến độ tạo nội dung cho trang tài li
 
 | Tên công việc | URL gốc | Trạng thái |
 |---------------|---------|------------|
-| Thư viện vật liệu | https://jega.vn/vi/trung-tam-huong-dan | 🟡 Đang thực hiện |
-| Tạo vật liệu mới | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Chưa bắt đầu |
-| Nhập vật liệu | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Chưa bắt đầu |
+| Thư viện vật liệu | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
+| Tạo vật liệu mới | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
+| Nhập vật liệu | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
 
 ### Báo giá và xuất bản vẽ
 
 | Tên công việc | URL gốc | Trạng thái |
 |---------------|---------|------------|
-| Tạo báo giá | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Chưa bắt đầu |
-| Xuất bản vẽ kỹ thuật | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Chưa bắt đầu |
-| Xuất file sản xuất | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Chưa bắt đầu |
+| Tạo báo giá | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
+| Xuất bản vẽ kỹ thuật | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
+| Xuất file sản xuất | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
 
 ### Phần mềm nâng cao
 
 | Tên công việc | URL gốc | Trạng thái |
 |---------------|---------|------------|
-| Khoan và lắp giật | https://www.aihouse.com/global/help-center/3d-home-design/3629 | 🔴 Chưa bắt đầu |
-| Kết nối Laminato | https://www.aihouse.com/global/help-center/3d-home-design/3629 | 🔴 Chưa bắt đầu |
-| Cấu hình bản lề | https://www.aihouse.com/global/help-center/3d-home-design/3629 | 🔴 Chưa bắt đầu |
+| Khoan và lắp giật | https://www.aihouse.com/global/help-center/3d-home-design/3629 | 🟡 Đang thực hiện |
+| Kết nối Laminato | https://www.aihouse.com/global/help-center/3d-home-design/3629 | 🟡 Đang thực hiện |
+| Cấu hình bản lề | https://www.aihouse.com/global/help-center/3d-home-design/3629 | 🟡 Đang thực hiện |
 
 ### Cập nhật hàng tháng
 
 | Tên công việc | URL gốc | Trạng thái |
 |---------------|---------|------------|
 | Tháng 5/2025 | https://www.aihouse.com/global/help-center/3d-home-design/3629 | 🟢 Hoàn thành |
-| Tháng 4/2025 | https://www.aihouse.com/global/help-center/3d-home-design/3629 | 🔴 Chưa bắt đầu |
-| Tháng 3/2025 | https://www.aihouse.com/global/help-center/3d-home-design/3625 | 🔴 Chưa bắt đầu |
-| Tháng 2/2025 | https://www.aihouse.com/global/help-center/3d-home-design/3623 | 🔴 Chưa bắt đầu |
-| Tháng 1/2025 | https://www.aihouse.com/global/help-center/3d-home-design/3622 | 🔴 Chưa bắt đầu |
-| Tháng 12/2024 | https://www.aihouse.com/global/help-center/3d-home-design/3621 | 🔴 Chưa bắt đầu |
-| Tháng 11/2024 | https://www.aihouse.com/global/help-center/3d-home-design/3620 | 🔴 Chưa bắt đầu |
-| Tháng 10/2024 | https://www.aihouse.com/global/help-center/3d-home-design/3624 | 🔴 Chưa bắt đầu |
-| Tháng 9/2024 | https://www.aihouse.com/global/help-center/3d-home-design/3596 | 🔴 Chưa bắt đầu |
-| Tháng 8/2024 | https://www.aihouse.com/global/help-center/3d-home-design/2064 | 🔴 Chưa bắt đầu |
-| Tháng 7/2024 | https://www.aihouse.com/global/help-center/3d-home-design/2050 | 🔴 Chưa bắt đầu |
 
 ### Hỏi đáp
 
@@ -174,11 +164,11 @@ Tài liệu này giúp theo dõi tiến độ tạo nội dung cho trang tài li
 
 | Tên công việc | URL gốc | Trạng thái |
 |---------------|---------|------------|
-| Hướng dẫn cơ bản | https://jega.vn/vi/trung-tam-huong-dan | 🟡 Đang thực hiện |
-| Thiết kế mặt bằng | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Chưa bắt đầu |
-| Thiết kế nội thất | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Chưa bắt đầu |
-| Vật liệu và ánh sáng | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Chưa bắt đầu |
-| Render và xuất bản | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Chưa bắt đầu |
+| Hướng dẫn cơ bản | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
+| Thiết kế mặt bằng | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
+| Thiết kế nội thất | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
+| Vật liệu và ánh sáng | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
+| Render và xuất bản | https://jega.vn/vi/trung-tam-huong-dan | 🔴 Không tìm thấy nội dung |
 
 ## Hướng dẫn cập nhật danh sách
 

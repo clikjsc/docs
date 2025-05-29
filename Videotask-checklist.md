@@ -32,7 +32,7 @@
 
 ## Giai đoạn 0.1: Xử lý Video Hướng Dẫn Chi Tiết (Theo danh sách cung cấp ngày 29/05/2025)
 
-- [🔴] **Video 1 (ID: _qamOGtCVbQ):** Xem video, điền mô tả chi tiết vào `trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-01.mdx`.
+- [🟡] **Video 1 (ID: _qamOGtCVbQ):** Xem video, điền mô tả chi tiết vào `trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-01.mdx`.
 - [🔴] **Video 2 (ID: ujsctZ2SEw8):** Xem video, điền mô tả chi tiết vào `trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-02.mdx`.
 - [🔴] **Video 3 (ID: ZT1m2BMubBY):** Xem video, điền mô tả chi tiết vào `trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-03.mdx`.
 - [🔴] **Video 4 (ID: BmLmSRYOmNs):** Xem video, điền mô tả chi tiết vào `trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-04.mdx`.

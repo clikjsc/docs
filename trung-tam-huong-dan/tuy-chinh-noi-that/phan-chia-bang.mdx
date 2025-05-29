@@ -1,0 +1,42 @@
+---
+title: Phân Chia Bảng
+description: Hướng dẫn phân chia bảng cho tủ tham số trong JEGA AiHouse.
+icon: split
+---
+
+## Phân chia bảng cho tủ tham số
+
+Tính năng phân chia bảng cho phép người dùng chia một bảng thành nhiều phần trong chế độ Tủ tham số. Điều này đặc biệt hữu ích khi thiết kế các loại tủ như tủ hành lang, tủ góc hoặc tủ quần áo mở, nơi các bảng có thể vượt quá chiều dài tiêu chuẩn và cần được phân chia trước khi đặt hàng.
+
+Trước đây, người thiết kế phải thiết kế lại tủ theo cách thủ công để đặt hàng, tốn nhiều thời gian và giảm hiệu quả. Bản cập nhật này cho phép người dùng phân chia bảng theo phương pháp nối ưa thích, đặt điểm ngắt hoặc tham chiếu các bảng khác để phân chia nhanh chóng và nhiều lần.
+
+### Mô tả tính năng
+
+Tính năng này khả dụng đầy đủ cho người dùng bán lẻ. Đối với người dùng doanh nghiệp, quản trị viên phải cấp quyền "Panel Segmentation" (Phân chia bảng) cho tài khoản thiết kế.
+
+Trong chế độ Tủ tham số - Chế độ bảng, người dùng có thể chọn một bảng cần phân đoạn và đặt phương pháp phân đoạn.
+
+Người dùng có thể điều chỉnh vị trí phân đoạn theo cách thủ công hoặc chọn một bảng tham chiếu để phân đoạn. Khi một bảng tham chiếu được chọn, hệ thống sẽ tự động điều chỉnh phần mở rộng của bảng để phù hợp với vị trí nối.
+
+Có hai phương pháp phân đoạn:
+
+1.  **Duplicate Segmentation (Phân đoạn trùng lặp)**: Bảng được sao chép tại điểm phân đoạn, tạo ra hai bảng giống hệt nhau. Phương pháp này lý tưởng cho các thành phần có hình dạng, phụ kiện hoặc các bảng đa thành phần yêu cầu khớp chính xác.
+
+2.  **Direct Cutting (Cắt trực tiếp)**: Bảng được chia tại điểm phân đoạn, kế thừa các đường viền bên trong và bên ngoài của bảng gốc.
+
+### Cách hoạt động
+
+1.  Mở thiết kế nhà bếp hoặc tủ quần áo và chuyển sang Chế độ xem 3D trong module tủ.
+2.  Trong menu module trên cùng, chuyển sang Chế độ bảng, chọn bảng cần phân đoạn, nhấp chuột phải và chọn "Panel Segmentation" (Phân chia bảng).
+3.  Trong bảng phân đoạn, cấu hình chi tiết phân đoạn, bao gồm giá trị khoảng cách và vị trí phân đoạn. Người dùng cũng có thể chọn một bảng tham chiếu để phân đoạn nhanh, điều chỉnh xem phân đoạn có mở rộng hay không và đặt phương pháp căn chỉnh.
+4.  Xác nhận để hoàn thành quá trình phân đoạn.
+
+### Lưu ý quan trọng
+
+1.  Các bảng có tên đối tượng không thể được điều khiển bằng tham số sau khi phân đoạn. Sử dụng chức năng này cẩn thận.
+2.  Trong phương pháp Cắt trực tiếp, các điểm chồng chéo hoặc điểm tọa độ có biểu thức tham số có thể gây biến dạng đường viền bảng. Nếu được nhắc, hãy tiến hành thận trọng.
+3.  Sau khi phân đoạn, hành động có thể được hoàn tác. Tuy nhiên, không hỗ trợ thay đổi kích thước hoặc hủy phân đoạn.
+4.  Cắt trực tiếp không được hỗ trợ trong các trường hợp sau:
+    (1) Khi điểm phân đoạn ảnh hưởng đến các đường viền bên trong hoặc bên ngoài không đều.
+    (2) Đối với các bảng đa thành phần.
+    (3) Nếu bảng được phân đoạn bao gồm các điều kiện ẩn hoặc hiển thị.
