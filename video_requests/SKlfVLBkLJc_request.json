@@ -1,0 +1,41 @@
+{
+  "contents": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "fileData": {
+            "mimeType": "video/*",
+            "fileUri": "https://www.youtube.com/watch?v=SKlfVLBkLJc"
+          }
+        },
+        {
+          "text": "You are given a video about a specific feature or guide for JEGA software. Please watch the video and generate a structured description of it. The description should include a short summary no more than 100 words, followed by detailed steps or key features mentioned in the video. Use a time-dependent JSON format for the description as follows: {\"Summary\": <summary of the video, less than 100 words>, \"Details\": [ {\"MM:SS~MM:SS\" : { \"Feature/Step Title\": \"Detailed explanation of the feature or step.\"}}, {\"MM:SS-MM:SS\": {\"Another Feature/Step\": \"Details...\"}, ... ] }."
+        }
+      ]
+    }
+  ],
+  "generationConfig": {
+    "temperature": 0.7,
+    "maxOutputTokens": 8192,
+    "topP": 1
+  },
+  "safetySettings": [
+    {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "BLOCK_NONE"
+    },
+    {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "BLOCK_NONE"
+    },
+    {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "BLOCK_NONE"
+    },
+    {
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "BLOCK_NONE"
+    }
+  ]
+}
