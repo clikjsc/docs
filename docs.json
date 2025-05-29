@@ -7,7 +7,7 @@
     "light": "#2E4DB8",
     "dark": "#0D1C53"
   },
-  "favicon": "logo/logo Jega.png",
+  "favicon": "logo Jega favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -32,7 +32,11 @@
             "group": "Thiết kế xây dựng",
             "icon": "blueprint",
             "pages": [
-              "trung-tam-huong-dan/thiet-ke-xay-dung/tao-mat-bang",
+              {
+                "group": "Tạo mặt bằng",
+                "icon": "layout-dashboard",
+                "pages": ["trung-tam-huong-dan/thiet-ke-xay-dung/tao-mat-bang"]
+              },
               "trung-tam-huong-dan/thiet-ke-xay-dung/chinh-sua-mat-bang",
               "trung-tam-huong-dan/thiet-ke-xay-dung/tao-vach-ngan"
             ]
@@ -62,9 +66,18 @@
               "trung-tam-huong-dan/ket-xuat/thiet-lap-ket-xuat",
               {
                 "group": "Vẽ AI",
+                "icon": "palette",
                 "pages": [
-                  "trung-tam-huong-dan/ket-xuat/ve-ai/cong-cu-ban-ve-ai",
-                  "trung-tam-huong-dan/ket-xuat/ve-ai/su-dung-chuc-nang-ve-ai"
+                  {
+                    "group": "Công cụ bản vẽ AI",
+                    "icon": "pencil-ruler",
+                    "pages": ["trung-tam-huong-dan/ket-xuat/ve-ai/cong-cu-ban-ve-ai"]
+                  },
+                  {
+                    "group": "Sử dụng chức năng Vẽ AI",
+                    "icon": "sparkles",
+                    "pages": ["trung-tam-huong-dan/ket-xuat/ve-ai/su-dung-chuc-nang-ve-ai"]
+                  }
                 ]
               }
             ]
@@ -95,7 +108,7 @@
         },
         {
           "anchor": "Diễn đàn cộng đồng",
-          "href": "https://www.facebook.com/jega.vn",
+          "href": "https://zalo.me/g/aksslx057",
           "icon": "users"
         },
         {
@@ -108,7 +121,7 @@
   },
   "logo": {
     "light": "/logo/logo Jega.png",
-    "dark": "/logo/logo Jega.png"
+    "dark": "/logo/logo Jega dark theme.png"
   },
   "navbar": {
     "links": [
