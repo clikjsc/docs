@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placeholder Screenshot Helper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .placeholder {
+            width: 800px;
+            height: 500px;
+            background-color: #0D1C53;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            width: 80%;
+        }
+        .controls {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px;
+            margin: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <h1>Placeholder Image Generator</h1>
+        <p>This page will help you save each placeholder as an image. Click on a button to show the corresponding placeholder, then take a screenshot.</p>
+    </div>
+    <div class="controls">
+        <button onclick="showSection('gioi-thieu')">Giới thiệu</button>
+        <button onclick="showSection('bat-dau-nhanh')">Bắt đầu nhanh</button>
+        <button onclick="showSection('dang-ky-tai-khoan')">Đăng ký tài khoản</button>
+        <button onclick="showSection('thiet-lap-tai-khoan')">Thiết lập tài khoản</button>
+        <button onclick="showSection('giao-dien-co-ban')">Giao diện cơ bản</button>
+        <button onclick="showSection('tao-mat-bang')">Tạo mặt bằng</button>
+        <button onclick="showSection('chinh-sua-mat-bang')">Chỉnh sửa mặt bằng</button>
+        <button onclick="showSection('tao-vach-ngan')">Tạo vách ngăn</button>
+        <button onclick="showSection('hieu-ung-mo-hinh')">Hiệu ứng mô hình</button>
+        <button onclick="showSection('quan-ly-khong-gian')">Quản lý không gian</button>
+        <button onclick="showSection('cong-cu-chinh-sua')">Công cụ chỉnh sửa</button>
+    </div>
+    <div class="controls">
+        <button onclick="showSection('bo-cuc-phong')">Bố cục phòng</button>
+        <button onclick="showSection('tu-do-noi-that')">Tủ đồ nội thất</button>
+        <button onclick="showSection('cau-hinh-tu-ban')">Cấu hình tủ bàn</button>
+        <button onclick="showSection('cua-va-cua-so')">Cửa và cửa sổ</button>
+        <button onclick="showSection('thiet-lap-ket-xuat')">Thiết lập kết xuất</button>
+        <button onclick="showSection('ket-xuat-hinh-anh')">Kết xuất hình ảnh</button>
+        <button onclick="showSection('cong-cu-ban-ve-ai')">Công cụ bản vẽ AI</button>
+        <button onclick="showSection('su-dung-chuc-nang-ve-ai')">Sử dụng chức năng vẽ AI</button>
+    </div>
+    <div class="controls">
+        <button onclick="showSection('cau-hoi-thuong-gap')">Câu hỏi thường gặp</button>
+        <button onclick="showSection('lien-he-ho-tro')">Liên hệ hỗ trợ</button>
+        <button onclick="showSection('video-huong-dan')">Video hướng dẫn</button>
+        <button onclick="showSection('2025-05')">Cập nhật tháng 5/2025</button>
+    </div>
+    
+    <div id="placeholder-container"></div>
+    
+    <script>
+        // Function to load placeholder content from create_placeholders.html
+        async function loadPlaceholders() {
+            try {
+                const response = await fetch('create_placeholders.html');
+                const html = await response.text();
+                
+                // Create a temporary element to parse the HTML
+                const tempElement = document.createElement('div');
+                tempElement.innerHTML = html;
+                
+                // Extract all placeholder divs
+                const placeholders = tempElement.querySelectorAll('.placeholder');
+                
+                // Store placeholders in a global variable
+                window.placeholders = {};
+                placeholders.forEach(placeholder => {
+                    if (placeholder.id) {
+                        window.placeholders[placeholder.id] = placeholder.outerHTML;
+                    }
+                });
+                
+                console.log('Placeholders loaded successfully');
+            } catch (error) {
+                console.error('Error loading placeholders:', error);
+                document.getElementById('placeholder-container').innerHTML = 
+                    '<p>Error loading placeholders. Please make sure create_placeholders.html is in the same directory.</p>';
+            }
+        }
+        
+        // Function to show a specific section
+        function showSection(id) {
+            if (!window.placeholders) {
+                document.getElementById('placeholder-container').innerHTML = 
+                    '<p>Placeholders not loaded yet. Please wait...</p>';
+                return;
+            }
+            
+            const html = window.placeholders[id];
+            if (html) {
+                document.getElementById('placeholder-container').innerHTML = html;
+            } else {
+                document.getElementById('placeholder-container').innerHTML = 
+                    '<p>Placeholder not found: ' + id + '</p>';
+            }
+        }
+        
+        // Load placeholders when the page loads
+        window.onload = loadPlaceholders;
+    </script>
+</body>
+</html>

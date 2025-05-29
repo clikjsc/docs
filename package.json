@@ -1,0 +1,12 @@
+{
+  "name": "jega-docs-helpers",
+  "version": "1.0.0",
+  "description": "Helper scripts for JEGA documentation",
+  "main": "generate_images.js",
+  "scripts": {
+    "generate-images": "node generate_images.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.7.3"
+  }
+}

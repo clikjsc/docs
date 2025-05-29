@@ -95,6 +95,23 @@
               "trung-tam-huong-dan/hoi-dap/lien-he-ho-tro",
               "trung-tam-huong-dan/hoi-dap/video-huong-dan"
             ]
+          },
+          {
+            "group": "Video Hướng Dẫn Chi Tiết",
+            "icon": "video",
+            "pages": [
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-01",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-02",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-03",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-04",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-05",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-06",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-07",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-08",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-09",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-10",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-11"
+            ]
           }
         ]
       }
@@ -127,13 +144,13 @@
     "links": [
       {
         "label": "Hỗ trợ",
-        "href": "mailto:support@jega.vn"
+        "href": "mailto:support@jega.vn?subject=H%E1%BB%97%20tr%E1%BB%A3%20JEGA&body=Ch%C3%A0o%20JEGA%20Support%2C%0A%0AT%C3%B4i%20c%E1%BA%A7n%20h%E1%BB%97%20tr%E1%BB%A3%20v%E1%BB%81%3A%0A%0A%5BVui%20l%C3%B2ng%20m%C3%B4%20t%E1%BA%A3%20v%E1%BA%A5n%20%C4%91%E1%BB%81%20c%E1%BB%A7a%20b%E1%BA%A1n%20t%E1%BA%A1i%20%C4%91%C3%A2y%5D%0A%0AC%E1%BA%A3m%20%C6%A1n."
       }
     ],
     "primary": {
       "type": "button",
       "label": "Đăng nhập",
-      "href": "https://portal.jega.vn/login"
+      "href": "https://zcloud-work.i72.com/main/login"
     }
   },
   "footer": {
