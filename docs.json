@@ -15,6 +15,7 @@
         "groups": [
           {
             "group": "Tổng quan",
+            "icon": "book-open",
             "pages": [
               "trung-tam-huong-dan/tong-quan/gioi-thieu",
               "trung-tam-huong-dan/tong-quan/bat-dau-nhanh"
@@ -22,6 +23,7 @@
           },
           {
             "group": "Hướng dẫn người dùng mới",
+            "icon": "life-buoy",
             "pages": [
               "trung-tam-huong-dan/huong-dan-nguoi-dung-moi/dang-ky-tai-khoan",
               "trung-tam-huong-dan/huong-dan-nguoi-dung-moi/thiet-lap-tai-khoan",
@@ -43,6 +45,7 @@
           },
           {
             "group": "Thao tác cơ bản",
+            "icon": "mouse-pointer",
             "pages": [
               "trung-tam-huong-dan/thao-tac-co-ban/hieu-ung-mo-hinh",
               "trung-tam-huong-dan/thao-tac-co-ban/quan-ly-khong-gian",
@@ -51,6 +54,7 @@
           },
           {
             "group": "Tùy chỉnh nội thất",
+            "icon": "chair",
             "pages": [
               "trung-tam-huong-dan/tuy-chinh-noi-that/bo-cuc-phong",
               "trung-tam-huong-dan/tuy-chinh-noi-that/tu-do-noi-that",
@@ -61,6 +65,7 @@
           },
           {
             "group": "Kết xuất",
+            "icon": "camera",
             "pages": [
               "trung-tam-huong-dan/ket-xuat/ket-xuat-hinh-anh",
               "trung-tam-huong-dan/ket-xuat/thiet-lap-ket-xuat",
@@ -84,12 +89,14 @@
           },
           {
             "group": "Cập nhật hàng tháng",
+            "icon": "calendar",
             "pages": [
               "trung-tam-huong-dan/cap-nhat-hang-thang/2025-05"
             ]
           },
           {
             "group": "Hỏi đáp",
+            "icon": "help-circle",
             "pages": [
               "trung-tam-huong-dan/hoi-dap/cau-hoi-thuong-gap",
               "trung-tam-huong-dan/hoi-dap/lien-he-ho-tro",
@@ -111,6 +118,46 @@
               "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-09",
               "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-10",
               "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-11"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Online Training",
+        "groups": [
+          {
+            "group": "Khóa học Online",
+            "icon": "monitor-play",
+            "pages": [
+              "https://www.youtube.com/watch?v=XR3Dp5dh7Jw&list=PLNbSivr3XqzFNvaU8bMTBER5NURfHsZZ4"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Jega Collection",
+        "groups": [
+          {
+            "group": "Video Collections",
+            "icon": "film",
+            "pages": [
+              "jega-collection/bst-lumen",
+              "jega-collection/bst-grove",
+              "jega-collection/bst-aurora",
+              "jega-collection/bst-estuary",
+              "jega-collection/bst-sierra",
+              "jega-collection/bst-chantilly",
+              "jega-collection/bst-eden",
+              "jega-collection/bst-archi",
+              "jega-collection/bst-bliss",
+              "jega-collection/bst-campi",
+              "jega-collection/bst-van-der-rohe",
+              "jega-collection/bst-phantom",
+              "jega-collection/bst-vista",
+              "jega-collection/bst-harmony",
+              "jega-collection/bst-macchiato",
+              "jega-collection/bst-luma",
+              "jega-collection/bst-temporal"
             ]
           }
         ]
