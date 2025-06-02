@@ -11,6 +11,13 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "API Reference",
+        "openapi": {
+          "source": "/api-reference/openapi.json",
+          "directory": "api-reference"
+        }
+      },
+      {
         "tab": "Trung tâm hướng dẫn",
         "groups": [
           {

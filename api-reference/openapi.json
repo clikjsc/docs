@@ -1,0 +1,52 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "JEGA Việt Nam API",
+    "version": "1.0.0",
+    "description": "API documentation for JEGA Việt Nam application."
+  },
+  "servers": [
+    {
+      "url": "https://api.jega.vn/v1"
+    }
+  ],
+  "paths": {
+    "/search": {
+      "get": {
+        "summary": "Search",
+        "description": "Search the JEGA Việt Nam application.",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "description": "Search query string.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results returned successfully.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "results": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
