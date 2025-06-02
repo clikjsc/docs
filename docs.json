@@ -36,7 +36,7 @@
             "pages": [
               {
                 "group": "Tạo mặt bằng",
-                "icon": "layout-dashboard",
+                "icon": "view-boards",
                 "pages": ["trung-tam-huong-dan/thiet-ke-xay-dung/tao-mat-bang"]
               },
               "trung-tam-huong-dan/thiet-ke-xay-dung/chinh-sua-mat-bang",
