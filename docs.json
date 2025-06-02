@@ -161,6 +161,15 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Tham khảo API",
+        "groups": [
+          {
+            "group": "API Reference",
+            "openapi": "./openapi.json"
+          }
+        ]
       }
     ],
     "global": {
@@ -186,6 +195,16 @@
   "logo": {
     "light": "/logo/logo Jega.png",
     "dark": "/logo/logo Jega dark theme.png"
+  },
+  "api": {
+    "playground": {
+      "display": "interactive",
+      "proxy": true
+    },
+    "examples": {
+      "languages": ["curl", "python", "javascript"],
+      "defaults": "required"
+    }
   },
   "navbar": {
     "links": [

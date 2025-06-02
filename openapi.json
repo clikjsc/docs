@@ -1,0 +1,81 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "JEGA API",
+    "version": "v1",
+    "description": "API chính thức cho các dịch vụ của JEGA."
+  },
+  "servers": [
+    {
+      "url": "https://api.jega.vn/v1",
+      "description": "Máy chủ sản xuất"
+    }
+  ],
+  "paths": {
+    "/items": {
+      "get": {
+        "summary": "Lấy danh sách các mục",
+        "description": "Trả về một danh sách các mục có sẵn.",
+        "operationId": "getItems",
+        "tags": ["Items"],
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Số lượng mục tối đa để trả về",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 20
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Một danh sách các mục.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "ID của mục."
+                      },
+                      "name": {
+                        "type": "string",
+                        "description": "Tên của mục."
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Lỗi không mong muốn",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "integer",
+                      "format": "int32"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

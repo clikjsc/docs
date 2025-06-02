@@ -10,7 +10,7 @@ Tài liệu này giúp theo dõi tiến độ tạo nội dung cho trang tài li
 ## Hướng dẫn thiết kế và branding
 
 ### Màu sắc và phông chữ
-- **Màu chủ đạo**: Xanh dương đậm (#0D1C53) - Sử dụng cho tiêu đề chính và thanh điều hướng
+- **Màu chủ đạo**: Đen (#000000) - Sử dụng cho tiêu đề chính và thanh điều hướng
 - **Màu nhấn**: Đỏ/Cam (#FF5733) - Sử dụng cho các nút nhấn và liên kết
 - **Màu nền**: Trắng (#FFFFFF) - Sử dụng cho nền trang
 - **Màu văn bản**: Đen (#000000) cho nội dung chính, Xám đậm (#333333) cho phụ đề
@@ -18,7 +18,9 @@ Tài liệu này giúp theo dõi tiến độ tạo nội dung cho trang tài li
 - **Phông chữ nội dung**: Sans-serif (Roboto hoặc tương đương) - Dễ đọc, kích thước phù hợp
 
 ### Logo và hình ảnh
-- Sử dụng logo JEGA màu xanh dương đậm cho header
+- Sử dụng logo JEGA phù hợp với nền:
+    - Logo JEGA với biểu tượng màu đỏ và chữ màu đậm (ví dụ: `logo Jega.png`) cho header có nền sáng.
+    - Logo JEGA phiên bản dành cho nền tối (ví dụ: `logo Jega dark theme.png`) cho header có nền tối để đảm bảo độ tương phản.
 - Đảm bảo tất cả hình ảnh đều có chất lượng cao, kích thước phù hợp
 - Hình ảnh minh họa nên liên quan trực tiếp đến nội dung
 - Tuân thủ tỷ lệ khung hình thống nhất trong tài liệu
