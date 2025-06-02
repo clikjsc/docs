@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://api.jega.vn/v1"
+      "url": "https://api.jegavn.clik.vn/v1"
     }
   ],
   "paths": {
