@@ -11,7 +11,18 @@
   "navigation": {
     "tabs": [
       {
+<<<<<<< HEAD
         "tab": "Guides",
+=======
+        "tab": "API Reference",
+        "openapi": {
+          "source": "/api-reference/openapi.json",
+          "directory": "api-reference"
+        }
+      },
+      {
+        "tab": "Trung tâm hướng dẫn",
+>>>>>>> 4ea08b38bf16186f8b1f5b47b904a5dc65ba9afa
         "groups": [
           {
             "group": "Get Started",
