@@ -1,0 +1,66 @@
+---
+title: 'Thêm Skybox để Tăng cường Trực quan hóa'
+description: 'Tìm hiểu cách sử dụng tính năng Skybox trong JEGA để cải thiện hiệu ứng bầu trời và môi trường xung quanh trong các cảnh 3D.'
+icon: 'image'
+---
+
+# Thêm Skybox để Tăng cường Trực quan hóa
+
+## Giới thiệu
+
+JEGA đã bổ sung tính năng Skybox, cho phép người dùng thêm một hình ảnh bầu trời hoặc môi trường tùy chỉnh vào nền của các cảnh 3D. Điều này giúp tăng cường đáng kể tính chân thực và cảm giác không gian cho các thiết kế, đặc biệt là khi xem ở chế độ roaming hoặc khi kết xuất hình ảnh/video.
+
+## Tính năng chính
+
+- **Thư viện Skybox**: Cung cấp một bộ sưu tập các Skybox mặc định (ví dụ: trời xanh, hoàng hôn, đêm đầy sao, cảnh quan thành phố, cảnh quan thiên nhiên).
+- **Tải lên Skybox tùy chỉnh**: Cho phép người dùng tải lên hình ảnh panorama 360 độ của riêng mình để sử dụng làm Skybox.
+- **Điều chỉnh Skybox**: Các tùy chọn để xoay, điều chỉnh độ sáng, hoặc cường độ của Skybox để phù hợp với ánh sáng của cảnh.
+- **Cải thiện hiệu ứng phản chiếu**: Skybox có thể ảnh hưởng đến sự phản chiếu trên các bề mặt bóng trong cảnh, làm tăng tính chân thực.
+- **Áp dụng cho từng cảnh hoặc toàn cục**: Có thể thiết lập Skybox cho một cảnh cụ thể hoặc làm cài đặt mặc định cho toàn bộ dự án.
+
+## Cách sử dụng
+
+1.  **Truy cập cài đặt Skybox**:
+    *   Trong chế độ xem 3D hoặc cài đặt môi trường/ánh sáng của dự án, tìm tùy chọn "Skybox", "Nền trời" (Background Sky), hoặc một thuật ngữ tương tự.
+
+2.  **Chọn Skybox từ thư viện**:
+    *   Duyệt qua thư viện các Skybox có sẵn.
+    *   Nhấp vào một Skybox để áp dụng nó vào cảnh hiện tại.
+
+3.  **Tải lên Skybox tùy chỉnh (nếu cần)**:
+    *   Nếu bạn có hình ảnh panorama 360 độ (thường ở định dạng equirectangular), tìm tùy chọn "Tải lên Skybox tùy chỉnh" (Upload Custom Skybox).
+    *   Chọn tệp hình ảnh từ máy tính của bạn.
+    *   JEGA sẽ xử lý và áp dụng hình ảnh đó làm Skybox.
+
+4.  **Điều chỉnh Skybox**:
+    *   Sau khi Skybox được áp dụng, bạn có thể tìm các tùy chọn để:
+        *   **Xoay (Rotation)**: Thay đổi hướng của Skybox để phù hợp với hướng ánh sáng mặt trời hoặc góc nhìn mong muốn.
+        *   **Độ sáng (Brightness)**: Điều chỉnh độ sáng tổng thể của Skybox.
+        *   **Cường độ (Intensity)**: Kiểm soát mức độ ảnh hưởng của Skybox đến ánh sáng môi trường của cảnh.
+
+5.  **Lưu cài đặt**: Lưu lại các thay đổi về Skybox cho dự án của bạn.
+
+## Lợi ích
+
+- **Tăng tính chân thực**: Một Skybox phù hợp làm cho cảnh 3D trông giống với môi trường thực tế hơn nhiều.
+- **Cải thiện cảm giác không gian**: Tạo ra một hậu cảnh rộng lớn và có chiều sâu, thay vì một nền trống hoặc màu đơn điệu.
+- **Nâng cao chất lượng kết xuất**: Hình ảnh và video kết xuất sẽ có bầu trời và môi trường nền đẹp mắt, chuyên nghiệp hơn.
+- **Tạo không khí cho thiết kế**: Skybox có thể giúp thiết lập không khí (mood) cho cảnh, ví dụ: một Skybox hoàng hôn tạo cảm giác ấm áp, một Skybox đêm tạo cảm giác sang trọng.
+
+## Mẹo sử dụng hiệu quả
+
+- **Chọn Skybox phù hợp với ánh sáng**: Đảm bảo hướng và màu sắc của ánh sáng mặt trời trong Skybox (nếu có) khớp với nguồn sáng chính trong cảnh 3D của bạn.
+- **Độ phân giải của Skybox tùy chỉnh**: Khi sử dụng Skybox tùy chỉnh, hãy chọn hình ảnh có độ phân giải đủ cao để tránh bị vỡ hoặc mờ khi xem ở các góc nhìn rộng.
+- **Kiểm tra phản chiếu**: Quan sát cách Skybox ảnh hưởng đến sự phản chiếu trên các bề mặt như kính, kim loại, hoặc sàn bóng để đảm bảo hiệu ứng tự nhiên.
+
+## Định dạng hình ảnh Skybox tùy chỉnh được hỗ trợ (ví dụ)
+
+- JPG, PNG (cho hình ảnh equirectangular)
+- HDR, EXR (cho Skybox có dải động cao, ảnh hưởng đến chiếu sáng dựa trên hình ảnh - IBL)
+
+## Hỗ trợ kỹ thuật
+
+Nếu bạn có câu hỏi về cách sử dụng hoặc tùy chỉnh Skybox, vui lòng liên hệ đội ngũ hỗ trợ của JEGA:
+
+- **Email:** support@jega.vn
+- **Hotline:** 1900 292 992

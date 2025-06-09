@@ -126,6 +126,89 @@
               "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-10",
               "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-11"
             ]
+          },
+          {
+            "group": "Design Circle",
+            "icon": "circle-dot",
+            "pages": [
+              "trung-tam-huong-dan/design-circle/gioi-thieu",
+              "trung-tam-huong-dan/design-circle/huong-dan-su-dung"
+            ]
+          },
+          {
+            "group": "Floor Plan",
+            "icon": "layout",
+            "pages": [
+              "trung-tam-huong-dan/floor-plan/gioi-thieu",
+              "trung-tam-huong-dan/floor-plan/tao-mat-bang",
+              "trung-tam-huong-dan/floor-plan/chinh-sua-mat-bang"
+            ]
+          },
+          {
+            "group": "Basic Operations",
+            "icon": "mouse-pointer",
+            "pages": [
+              "trung-tam-huong-dan/basic-operations/apply-partial-effects",
+              "trung-tam-huong-dan/basic-operations/optimized-stacking",
+              "trung-tam-huong-dan/basic-operations/mouse-rotation-settings",
+              "trung-tam-huong-dan/basic-operations/lens-clipping",
+              "trung-tam-huong-dan/basic-operations/saving-and-backup",
+              "trung-tam-huong-dan/basic-operations/quick-collection",
+              "trung-tam-huong-dan/basic-operations/cloud-library",
+              "trung-tam-huong-dan/basic-operations/measuring-tool",
+              "trung-tam-huong-dan/basic-operations/2d-rendering",
+              "trung-tam-huong-dan/basic-operations/skybox",
+              "trung-tam-huong-dan/basic-operations/camera-controls"
+            ]
+          },
+          {
+            "group": "Customization",
+            "icon": "sliders",
+            "pages": [
+              "trung-tam-huong-dan/customization/interface-upgrade",
+              "trung-tam-huong-dan/customization/room-layout",
+              "trung-tam-huong-dan/customization/workbench-config",
+              "trung-tam-huong-dan/customization/drilling-methods",
+              "trung-tam-huong-dan/customization/laminato-connectors",
+              "trung-tam-huong-dan/customization/hinge-drilling",
+              "trung-tam-huong-dan/customization/panel-division",
+              "trung-tam-huong-dan/customization/custom-lighting",
+              "trung-tam-huong-dan/customization/hardware-selection",
+              "trung-tam-huong-dan/customization/doorway-trim-installation",
+              "trung-tam-huong-dan/customization/automatic-trim-double-wrapped-doors",
+              "trung-tam-huong-dan/customization/optimized-mullion-constraints",
+              "trung-tam-huong-dan/customization/my-window-door-asset-library",
+              "trung-tam-huong-dan/customization/canvas-multi-object-wall-snapping",
+              "trung-tam-huong-dan/customization/3d-preview-ruler-support",
+              "trung-tam-huong-dan/customization/enhanced-snap-logic-dragging-mullions",
+              "trung-tam-huong-dan/customization/adjustable-platform-height-infinite-canvas",
+              "trung-tam-huong-dan/customization/3d-preview-wall-model-display"
+            ]
+          },
+          {
+            "group": "Furni AI",
+            "icon": "brain",
+            "pages": [
+              "trung-tam-huong-dan/furni-ai/gioi-thieu",
+              "trung-tam-huong-dan/furni-ai/huong-dan-su-dung"
+            ]
+          },
+          {
+            "group": "Vật liệu thiết kế",
+            "icon": "palette",
+            "pages": [
+              "trung-tam-huong-dan/vat-lieu-thiet-ke/tong-quan",
+              "trung-tam-huong-dan/vat-lieu-thiet-ke/thu-vien-vat-lieu",
+              "trung-tam-huong-dan/vat-lieu-thiet-ke/tuy-chinh-vat-lieu"
+            ]
+          },
+          {
+            "group": "Tính năng nâng cao",
+            "icon": "sparkles",
+            "pages": [
+              "trung-tam-huong-dan/phan-mem-nang-cao/tong-quan",
+              "trung-tam-huong-dan/phan-mem-nang-cao/tinh-nang-chuyen-sau"
+            ]
           }
         ]
       },

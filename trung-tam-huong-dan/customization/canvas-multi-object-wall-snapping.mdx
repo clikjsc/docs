@@ -1,0 +1,60 @@
+---
+title: 'Bắt điểm canvas hỗ trợ đa đối tượng và bắt điểm tường'
+description: 'Tìm hiểu về cải tiến tính năng bắt điểm trên canvas, hỗ trợ bắt điểm nhiều đối tượng cùng lúc và bắt điểm vào tường trong JEGA.'
+icon: 'magnet'
+---
+
+# Bắt điểm canvas hỗ trợ đa đối tượng và bắt điểm tường
+
+## Giới thiệu
+
+JEGA đã nâng cấp tính năng bắt điểm (snapping) trên canvas, mang lại khả năng bắt điểm chính xác hơn và linh hoạt hơn. Giờ đây, người dùng có thể dễ dàng căn chỉnh nhiều đối tượng với nhau và bắt điểm các đối tượng trực tiếp vào tường một cách chuẩn xác.
+
+## Tính năng chính
+
+- **Bắt điểm đa đối tượng (Multi-Object Snapping)**:
+    - Khi di chuyển hoặc thay đổi kích thước một đối tượng, nó có thể tự động bắt điểm vào các cạnh, góc, hoặc điểm trung tâm của nhiều đối tượng khác gần đó cùng một lúc.
+    - Giúp việc căn chỉnh hàng loạt đối tượng trở nên nhanh chóng và đồng đều.
+
+- **Bắt điểm tường (Wall Snapping)**:
+    - Các đối tượng như đồ nội thất, tranh ảnh, kệ, v.v., có thể tự động bắt điểm vào bề mặt tường khi được kéo lại gần.
+    - Hỗ trợ bắt điểm vào các cạnh tường, góc tường, hoặc một khoảng cách nhất định từ tường (nếu được cấu hình).
+
+- **Cải thiện độ nhạy và phản hồi**: Độ nhạy của tính năng bắt điểm được cải thiện, cùng với các chỉ báo trực quan rõ ràng hơn khi một điểm bắt được kích hoạt.
+- **Tùy chọn bật/tắt**: Người dùng có thể dễ dàng bật hoặc tắt các tùy chọn bắt điểm khác nhau (ví dụ: bắt điểm lưới, bắt điểm đối tượng, bắt điểm tường) thông qua cài đặt.
+
+## Cách sử dụng
+
+### Bắt điểm đa đối tượng
+
+1.  **Kích hoạt tính năng**: Đảm bảo rằng tùy chọn "Bắt điểm đối tượng" (Object Snapping) đã được bật trong cài đặt canvas hoặc thanh công cụ.
+2.  **Chọn và di chuyển đối tượng**: Chọn đối tượng bạn muốn căn chỉnh.
+3.  **Quan sát điểm bắt**: Khi bạn kéo đối tượng này gần các đối tượng khác, các đường gióng và điểm bắt sẽ xuất hiện, cho biết đối tượng đang được căn chỉnh với các cạnh, góc, hoặc trung điểm của các đối tượng lân cận.
+    *   Hệ thống có thể ưu tiên bắt điểm vào đối tượng gần nhất hoặc đối tượng có các đặc điểm hình học nổi bật.
+
+### Bắt điểm tường
+
+1.  **Kích hoạt tính năng**: Đảm bảo tùy chọn "Bắt điểm tường" (Wall Snapping) được bật.
+2.  **Chọn và di chuyển đối tượng**: Chọn đối tượng bạn muốn đặt sát tường (ví dụ: tủ, bàn, ghế).
+3.  **Kéo đối tượng về phía tường**: Khi đối tượng đến gần một bức tường, nó sẽ tự động "hít" vào bề mặt tường. Các chỉ báo có thể hiển thị khoảng cách đến tường hoặc vị trí bắt điểm.
+    *   Một số đối tượng có thể có hành vi bắt điểm mặc định (ví dụ: mặt sau của tủ sẽ áp vào tường).
+
+## Lợi ích
+
+- **Tăng tốc độ làm việc**: Căn chỉnh và định vị đối tượng nhanh hơn nhiều so với việc điều chỉnh thủ công.
+- **Độ chính xác cao**: Đảm bảo các đối tượng được đặt đúng vị trí và căn chỉnh hoàn hảo.
+- **Thiết kế chuyên nghiệp hơn**: Giúp tạo ra các layout gọn gàng, có tổ chức và cân đối.
+- **Giảm thiểu lỗi**: Tránh các lỗi căn chỉnh sai lệch nhỏ có thể khó phát hiện bằng mắt thường.
+
+## Mẹo sử dụng hiệu quả
+
+- **Kết hợp các loại bắt điểm**: Sử dụng kết hợp bắt điểm lưới (grid snapping), bắt điểm đối tượng, và bắt điểm tường để đạt được sự kiểm soát tối đa.
+- **Điều chỉnh độ nhạy (nếu có)**: Nếu tính năng bắt điểm quá nhạy hoặc không đủ nhạy, kiểm tra xem có cài đặt nào để điều chỉnh không.
+- **Sử dụng phím tắt**: Một số phần mềm cho phép tạm thời bật/tắt bắt điểm bằng cách giữ một phím nào đó (ví dụ: `Alt` hoặc `Ctrl`) để có sự linh hoạt khi cần đặt đối tượng ở vị trí không theo điểm bắt.
+
+## Hỗ trợ kỹ thuật
+
+Nếu bạn có câu hỏi hoặc gặp vấn đề với tính năng bắt điểm trên canvas, vui lòng liên hệ đội ngũ hỗ trợ của JEGA:
+
+- **Email:** support@jega.vn
+- **Hotline:** 1900 292 992
