@@ -11,6 +11,13 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "API Reference",
+        "openapi": {
+          "source": "/api-reference/openapi.json",
+          "directory": "api-reference"
+        }
+      },
+      {
         "tab": "Trung tâm hướng dẫn",
         "groups": [
           {
@@ -99,7 +106,25 @@
             "icon": "help-circle",
             "pages": [
               "trung-tam-huong-dan/hoi-dap/cau-hoi-thuong-gap",
-              "trung-tam-huong-dan/hoi-dap/lien-he-ho-tro"
+              "trung-tam-huong-dan/hoi-dap/lien-he-ho-tro",
+              "trung-tam-huong-dan/hoi-dap/video-huong-dan"
+            ]
+          },
+          {
+            "group": "Video Hướng Dẫn Chi Tiết",
+            "icon": "video",
+            "pages": [
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-01",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-02",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-03",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-04",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-05",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-06",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-07",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-08",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-09",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-10",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-11"
             ]
           }
         ]
@@ -108,10 +133,10 @@
         "tab": "Online Training",
         "groups": [
           {
-            "group": "Học Jega qua video trực quan",
-            "icon": "video",
+            "group": "Khóa học Online",
+            "icon": "monitor-play",
             "pages": [
-              "trung-tam-huong-dan/online-training/hoc-jega-qua-video-truc-quan"
+              "https://www.youtube.com/watch?v=XR3Dp5dh7Jw&list=PLNbSivr3XqzFNvaU8bMTBER5NURfHsZZ4"
             ]
           }
         ]
