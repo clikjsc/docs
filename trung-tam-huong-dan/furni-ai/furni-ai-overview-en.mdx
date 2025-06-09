@@ -1,0 +1,99 @@
+---
+title: "Furni AI - Feature Updates (April & May 2025)"
+description: "Overview of AiHouse feature updates for April & May 2025, covering basic operations like applying partial effects and major customization enhancements including module interface upgrades, new drilling methods, and improved connector/hinge configurations."
+icon: /images/icons/furni-ai.svg
+---
+
+This document summarizes the feature updates for AiHouse released in April & May 2025.
+
+## 1. Basic Operations
+
+### Apply Partial Effects to Identical Models
+
+*   **Highlights:**
+    *   For non-lighting furniture materials, users can apply modified texture/material and size separately to identical models.
+    *   For lighting materials, users can apply modified texture/material, size, color temperature, and brightness separately.
+*   **Problem Solved:** Allows users to selectively apply certain changes to identical models instead of all changes at once.
+*   **Feature Value:** Improves efficiency when adjusting model parameters.
+
+![Applying partial effects to identical models](https://ai-study1.3vjia.com/aihouse-web/16bce897-6280-4a70-ae44-a4a1c197df90.png)
+
+*   **Steps:**
+    1.  Ensure multiple identical model IDs exist on the canvas.
+    2.  Modify the texture/material, size, color temperature, or brightness of one model.
+    3.  Click "Apply Effects to Identical Models" and select, for example, texture/material.
+    *Result: Other identical models will adopt the same texture/material.*
+
+## 2. Customization
+
+### 2.1 Customization Module Interface Upgrade (Major Update)
+
+*   **Feature Highlights:**
+    1.  Integrates the Custom Module, Material Hub, and Design Circle into a single interface.
+    2.  Material search no longer requires switching modules; material window supports full-screen and tiled view.
+    3.  Product catalog changed from dropdown interaction to tiled display.
+    4.  Seamless switching between Parametric Design and Free Cabinet Design.
+    5.  Users can customize sorting in their Favorites folders.
+    6.  Enterprises can customize sorting of top-level categories.
+*   **Optimizations:**
+    1.  “My Items” in Free Cabinet moved to "Favorites".
+    2.  “Material Creation” in the top menu moved to Quick Access.
+    3.  The top menu’s Product Library was removed and replaced by a tiled mode.
+*   **Problems Solved:**
+    1.  Reduces the need to switch between modules when dragging cabinets or placing decorations.
+    2.  Simplifies material search process by minimizing clicks and switching.
+    3.  Supports use of third-party libraries beyond the enterprise and public libraries.
+
+![New Customization Module Interface](https://ai-study1.3vjia.com/aihouse-web/6ee1a265-7737-4c43-b39d-6e2f16fa3c56.png)
+
+![Material Hub Integration](https://ai-study1.3vjia.com/aihouse-web/112233ac-2459-4973-8227-bf10b657b679.png)
+
+*   **Steps to Enable Material Hub View:**
+    1.  Open a design project, enter the Cabinet or Hard Finish module, and click the top menu.
+    2.  Click Global Settings > Material Panel Toggle > Select Material Hub, then close the panel.
+    3.  The left sidebar now displays the Material Hub.
+
+![Enabling Material Hub view](https://ai-study1.3vjia.com/aihouse-web/e9d13c2d-79c6-4c18-a60a-02edaa7c1f59.png)
+
+### 2.2 Room Layout Basics – Door Model Update
+
+*   **Highlights:**
+    *   Improves user design experience with updated door materials that align with current trends.
+    *   New styles added to the left panel of the layout include single doors, double doors, unequal doors, and door frames.
+
+![Updated Door Models in Room Layout](https://ai-study1.3vjia.com/aihouse-web/5585fbc0-eab2-40f2-8d05-5ad7de7cef3d.png)
+
+### 2.3 Process and Drawer Configuration Moved to Workbench
+
+*   **Highlights:** Streamlines configuration management in the workbench, making it easier to maintain and apply updates uniformly.
+*   **Problem Solved:** The workbench is now the platform for future feature development. The Craft Configuration and Drawer Configuration settings in AiHouse will be closed.
+
+![Process and Drawer Configuration in Workbench](https://ai-study1.3vjia.com/aihouse-web/d8dca45e-1ccb-4ffe-91fb-d0d567381d66.png)
+
+*   **Permission Requirements:** Account must have access rights. Path: Workbench > Whole-Home Backend Management > Advanced Customization Settings > 3D Function Settings (View/Edit)
+
+![Permissions for Workbench Configuration](https://ai-study1.3vjia.com/aihouse-web/8d56e555-8498-4411-863b-41076474ce7c.png)
+
+### 2.4 Add Drilling Method: Evenly Spaced (JEGA Advanced Version)
+
+*   **Feature Highlights/Comparison:**
+    *   Previous version used front/rear positioning, which could result in uneven spacing between holes. Some enterprises require consistent spacing between all holes.
+    *   The new version introduces a Fixed Equal Spacing algorithm to ensure uniform distance between middle holes.
+*   **Feature Value:** Improves hardware distribution when cabinet height is not divisible by 32, resulting in more evenly spaced holes.
+
+![Evenly Spaced Drilling Method](https://ai-study1.3vjia.com/aihouse-web/80951e0c-8d48-4e23-9766-de5bbc920178.png)
+
+### 2.5 Laminato Connectors – OF Axis Enhancements (JEGA Advanced Version)
+
+*   **Highlights:** New settings added for Centered, Fixed Value, and Multi-Thickness options. Enables more flexible positioning of the connector axis, allowing adaptation to different product versions.
+
+![Laminato Connector OF Axis Enhancements](https://ai-study1.3vjia.com/aihouse-web/ee5db0a6-986d-4c76-9bc0-7e6870559a3c.png)
+
+### 2.6 Hinge Drilling – Door Overlay Type Configuration (JEGA Advanced Version)
+
+*   **Previous Version:** Overlay type (full, half, inset) was hardcoded and could not be customized by the user.
+*   **New Version:** Provides a configuration interface that allows users to define how the system determines overlay types based on set values. Example: Full overlay for 13–15 mm, Half overlay for 7–12 mm, Inset for 0–6 mm.
+
+![Hinge Drilling Door Overlay Type Configuration](https://ai-study1.3vjia.com/aihouse-web/f2eff1ae-a9dd-49cd-849e-73e98f8833ee.png)
+
+*This article was last updated on 2025-05-14.*

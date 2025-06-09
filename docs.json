@@ -1,66 +1,163 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "JEGA Việt Nam - Hướng dẫn sử dụng",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0D1C53",
+    "light": "#2E4DB8",
+    "dark": "#0D1C53"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "logo Jega favicon.png",
   "navigation": {
     "tabs": [
       {
-<<<<<<< HEAD
-        "tab": "Guides",
-=======
-        "tab": "API Reference",
-        "openapi": {
-          "source": "/api-reference/openapi.json",
-          "directory": "api-reference"
-        }
-      },
-      {
         "tab": "Trung tâm hướng dẫn",
->>>>>>> 4ea08b38bf16186f8b1f5b47b904a5dc65ba9afa
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Tổng quan",
+            "icon": "book-open",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "trung-tam-huong-dan/tong-quan/gioi-thieu",
+              "trung-tam-huong-dan/tong-quan/bat-dau-nhanh"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Hướng dẫn người dùng mới",
+            "icon": "life-buoy",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "trung-tam-huong-dan/huong-dan-nguoi-dung-moi/dang-ky-tai-khoan",
+              "trung-tam-huong-dan/huong-dan-nguoi-dung-moi/thiet-lap-tai-khoan",
+              "trung-tam-huong-dan/huong-dan-nguoi-dung-moi/giao-dien-co-ban"
+            ]
+          },
+          {
+            "group": "Thiết kế xây dựng",
+            "icon": "blueprint",
+            "pages": [
+              {
+                "group": "Tạo mặt bằng",
+                "icon": "layout-dashboard",
+                "pages": ["trung-tam-huong-dan/thiet-ke-xay-dung/tao-mat-bang"]
+              },
+              "trung-tam-huong-dan/thiet-ke-xay-dung/chinh-sua-mat-bang",
+              "trung-tam-huong-dan/thiet-ke-xay-dung/tao-vach-ngan"
+            ]
+          },
+          {
+            "group": "Thao tác cơ bản",
+            "icon": "mouse-pointer",
+            "pages": [
+              "trung-tam-huong-dan/thao-tac-co-ban/hieu-ung-mo-hinh",
+              "trung-tam-huong-dan/thao-tac-co-ban/quan-ly-khong-gian",
+              "trung-tam-huong-dan/thao-tac-co-ban/cong-cu-chinh-sua"
+            ]
+          },
+          {
+            "group": "Tùy chỉnh nội thất",
+            "icon": "chair",
+            "pages": [
+              "trung-tam-huong-dan/tuy-chinh-noi-that/bo-cuc-phong",
+              "trung-tam-huong-dan/tuy-chinh-noi-that/tu-do-noi-that",
+              "trung-tam-huong-dan/tuy-chinh-noi-that/cau-hinh-tu-ban",
+              "trung-tam-huong-dan/tuy-chinh-noi-that/cua-va-cua-so",
+              "trung-tam-huong-dan/tuy-chinh-noi-that/tuy-chinh-vat-lieu"
+            ]
+          },
+          {
+            "group": "Kết xuất",
+            "icon": "camera",
+            "pages": [
+              "trung-tam-huong-dan/ket-xuat/ket-xuat-hinh-anh",
+              "trung-tam-huong-dan/ket-xuat/thiet-lap-ket-xuat",
+              {
+                "group": "Vẽ AI",
+                "icon": "palette",
+                "pages": [
+                  {
+                    "group": "Công cụ bản vẽ AI",
+                    "icon": "pencil-ruler",
+                    "pages": ["trung-tam-huong-dan/ket-xuat/ve-ai/cong-cu-ban-ve-ai"]
+                  },
+                  {
+                    "group": "Sử dụng chức năng Vẽ AI",
+                    "icon": "sparkles",
+                    "pages": ["trung-tam-huong-dan/ket-xuat/ve-ai/su-dung-chuc-nang-ve-ai"]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Cập nhật hàng tháng",
+            "icon": "calendar",
+            "pages": [
+              "trung-tam-huong-dan/cap-nhat-hang-thang/2025-05"
+            ]
+          },
+          {
+            "group": "Hỏi đáp",
+            "icon": "help-circle",
+            "pages": [
+              "trung-tam-huong-dan/hoi-dap/cau-hoi-thuong-gap",
+              "trung-tam-huong-dan/hoi-dap/lien-he-ho-tro",
+              "trung-tam-huong-dan/hoi-dap/video-huong-dan"
+            ]
+          },
+          {
+            "group": "Video Hướng Dẫn Chi Tiết",
+            "icon": "video",
+            "pages": [
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-01",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-02",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-03",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-04",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-05",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-06",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-07",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-08",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-09",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-10",
+              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-11"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Online Training",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Khóa học Online",
+            "icon": "monitor-play",
             "pages": [
-              "api-reference/introduction"
+              "https://www.youtube.com/watch?v=XR3Dp5dh7Jw&list=PLNbSivr3XqzFNvaU8bMTBER5NURfHsZZ4"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Jega Collection",
+        "groups": [
           {
-            "group": "Endpoint Examples",
+            "group": "Video Collections",
+            "icon": "film",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "jega-collection/bst-lumen",
+              "jega-collection/bst-grove",
+              "jega-collection/bst-aurora",
+              "jega-collection/bst-estuary",
+              "jega-collection/bst-sierra",
+              "jega-collection/bst-chantilly",
+              "jega-collection/bst-eden",
+              "jega-collection/bst-archi",
+              "jega-collection/bst-bliss",
+              "jega-collection/bst-campi",
+              "jega-collection/bst-van-der-rohe",
+              "jega-collection/bst-phantom",
+              "jega-collection/bst-vista",
+              "jega-collection/bst-harmony",
+              "jega-collection/bst-macchiato",
+              "jega-collection/bst-luma",
+              "jega-collection/bst-temporal"
             ]
           }
         ]
@@ -69,45 +166,44 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Website JEGA",
+          "href": "https://jega.vn",
+          "icon": "globe"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Diễn đàn cộng đồng",
+          "href": "https://zalo.me/g/aksslx057",
+          "icon": "users"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://jega.vn/vi/bo-suu-tap",
           "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/logo Jega.png",
+    "dark": "/logo/logo Jega dark theme.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Hỗ trợ",
+        "href": "mailto:support@jega.vn?subject=H%E1%BB%97%20tr%E1%BB%A3%20JEGA&body=Ch%C3%A0o%20JEGA%20Support%2C%0A%0AT%C3%B4i%20c%E1%BA%A7n%20h%E1%BB%97%20tr%E1%BB%A3%20v%E1%BB%81%3A%0A%0A%5BVui%20l%C3%B2ng%20m%C3%B4%20t%E1%BA%A3%20v%E1%BA%A5n%20%C4%91%E1%BB%81%20c%E1%BB%A7a%20b%E1%BA%A1n%20t%E1%BA%A1i%20%C4%91%C3%A2y%5D%0A%0AC%E1%BA%A3m%20%C6%A1n."
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Đăng nhập",
+      "href": "https://zcloud-work.i72.com/main/login"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "facebook": "https://www.facebook.com/jega.vn",
+      "youtube": "https://www.youtube.com/@JEGAVN"
     }
   }
 }

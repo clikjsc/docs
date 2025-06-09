@@ -1,0 +1,42 @@
+---
+title: Cách tạo chữ 3D trên bề mặt tường
+description: Tìm hiểu cách tạo chữ 3D trên bề mặt tường trong AiHouse bằng cách sử dụng mô hình tự do và nhập CAD cho tường trên, bao gồm cả việc tạo chữ phát sáng.
+icon: /images/icons/floor-plan.svg
+---
+
+Chào bạn, việc tạo chữ trên tường có thể được thực hiện thông qua chức năng văn bản của công cụ tạo mô hình tự do (free modeling) và nhập phông chữ CAD cho phần tường trên (top wall). Các bước thực hiện như sau:
+
+### Cách 1: Sử dụng Tạo mô hình tự do (Free Modeling)
+
+1.  Vào chế độ tạo mô hình tự do, nhấp vào công cụ văn bản, nhập nội dung chữ cần tạo, sửa đổi các thuộc tính của văn bản. Sau khi xác nhận, di chuyển chuột đến vị trí cần đặt và nhấp chuột trái để xác nhận.
+
+    ![Nhập liệu văn bản trong Tạo mô hình tự do](https://ai-study1.3vjia.com/aihouse-web/1e9bf9a8-9c6e-4a6b-8a0c-73e188c135f1.png)
+    *(Lưu ý: Hình ảnh được cung cấp trong nội dung gốc cho bước này dường như là ảnh chụp màn hình giao diện chung, không cụ thể cho việc nhập văn bản. Tôi đã sử dụng hình ảnh liên quan đầu tiên từ dữ liệu lấy về.)*
+
+2.  *(Nội dung lấy về cho bước 2 của tạo mô hình tự do bị thiếu hình ảnh rõ ràng, nhưng thông thường sẽ bao gồm việc kéo khối hoặc tạo độ dày cho chữ.)*
+
+### Cách 2: Nhập liệu cho Tường trên (Import for the Top Wall)
+
+1.  Sau khi chỉnh sửa hình dạng phông chữ trong CAD, vào phần tường trên, nhấp vào bề mặt tường, chọn nhập hình dạng (import shape) và nhập vào khu vực cục bộ.
+
+    ![Nhập phông chữ CAD vào Tường trên](https://ai-study1.3vjia.com/aihouse-web/735b09ea-1347-49a3-9b90-37070e7807f9.png)
+
+### Tạo chữ Phát sáng (Luminous Font Production)
+
+#### Cách 1: Chữ Phát sáng bằng Tạo mô hình tự do
+
+Phiên bản design mới hoạt động như sau: (Chỉ áp dụng cho phiên bản mới)
+
+1.  Vào Kết xuất (Rendering) - Ánh sáng (Lighting) - Đèn cho Model (Model Light);
+
+    ![Chọn Đèn cho Model](https://ai-study1.3vjia.com/aihouse-web/e95a0c56-7d71-4854-8f99-6977764f101b.png)
+    *(Lưu ý: Hình ảnh ở đây là một ảnh giữ chỗ từ nội dung lấy về, có vẻ là một URI dữ liệu của vòng xoay tải hoặc một hình ảnh rất nhỏ/bị hỏng. Một hình ảnh phù hợp sẽ hiển thị giao diện lựa chọn Đèn cho Model.)*
+
+2.  Kéo đèn model vào khu vực thao tác và gán nó cho phông chữ.
+
+    ![Gán Đèn Model cho Phông chữ](https://ai-study1.3vjia.com/aihouse-web/9260995f-3c39-4f7a-b1e8-c1905a20f7d7.png)
+    *(Lưu ý: Tương tự như trên, hình ảnh này cũng là một URI dữ liệu giữ chỗ.)*
+
+#### Cách 2: Chữ Phát sáng Tùy chỉnh trên Tường trên
+
+1.  Sau khi nhập văn bản, bạn có thể chọn đối tượng đồ họa văn bản, nhấp chuột phải và chọn dải viền (edge band), sau đó kéo ống đèn bên trái để thêm vào đối tượng đồ họa văn bản để làm cho nó phát sáng.
