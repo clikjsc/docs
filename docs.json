@@ -99,25 +99,7 @@
             "icon": "help-circle",
             "pages": [
               "trung-tam-huong-dan/hoi-dap/cau-hoi-thuong-gap",
-              "trung-tam-huong-dan/hoi-dap/lien-he-ho-tro",
-              "trung-tam-huong-dan/hoi-dap/video-huong-dan"
-            ]
-          },
-          {
-            "group": "Video Hướng Dẫn Chi Tiết",
-            "icon": "video",
-            "pages": [
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-01",
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-02",
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-03",
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-04",
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-05",
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-06",
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-07",
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-08",
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-09",
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-10",
-              "trung-tam-huong-dan/video-huong-dan-chi-tiet/huong-dan-video-11"
+              "trung-tam-huong-dan/hoi-dap/lien-he-ho-tro"
             ]
           }
         ]
@@ -126,10 +108,10 @@
         "tab": "Online Training",
         "groups": [
           {
-            "group": "Khóa học Online",
-            "icon": "monitor-play",
+            "group": "Học Jega qua video trực quan",
+            "icon": "video",
             "pages": [
-              "https://www.youtube.com/watch?v=XR3Dp5dh7Jw&list=PLNbSivr3XqzFNvaU8bMTBER5NURfHsZZ4"
+              "trung-tam-huong-dan/online-training/hoc-jega-qua-video-truc-quan"
             ]
           }
         ]

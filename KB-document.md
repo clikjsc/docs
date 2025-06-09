@@ -1107,7 +1107,7 @@ IMAGE_DESCRIPTION_VI_1: Ảnh GIF động minh họa: (1) Một vật liệu tr�
     *   Từ menu trên cùng: Chọn **[Công cụ (Tools)]** → **[Material Brush (Chổi Vật liệu)]**.
     *   Hoặc sử dụng phím tắt: **Shift+B**.
 3.  **Sao chép Vật liệu đã Chỉnh sửa:**
-    *   Sau khi kích hoạt Chổi Vật liệu, di chuột đến bề mặt của mô hình hoàn thiện có chứa vật liệu bạn vừa chỉnh sửa.
+    *   Di chuột đến bề mặt của mô hình hoàn thiện có chứa vật liệu bạn vừa chỉnh sửa.
     *   Nhấp chuột trái một lần để lấy mẫu vật liệu đã được chỉnh sửa đó.
 4.  **Áp dụng Vật liệu đã Chỉnh sửa cho Mô hình Hoàn thiện Khác:**
     *   Di chuyển con trỏ chuột (đang ở dạng Chổi Vật liệu và đã lấy mẫu) đến bề mặt của một mô hình hoàn thiện khác mà bạn muốn áp dụng vật liệu đã chỉnh sửa.
@@ -1783,3 +1783,40 @@ IMAGE_DESCRIPTION_VI_1: Ảnh GIF động minh họa chế độ Xem trước 3D
     *   Model tường sẽ tự động hiển thị xung quanh cửa/cửa sổ.
     *   Chú ý đến vị trí căn chỉnh của cửa/cửa sổ so với các mặt của tường và độ dày tường được hiển thị.
 ---
+----------------------------------------
+
+VIDEO_LESSONS_VI:
+---
+- title: "Giới thiệu tổng quan"
+  url: "https://www.youtube.com/watch?v=_qamOGtCVbQ"
+  summary: "Tổng quan về giao diện và các tính năng chính của JEGA."
+- title: "Đăng ký và cài đặt"
+  url: "https://www.youtube.com/watch?v=ujsctZ2SEw8"
+  summary: "Hướng dẫn đăng ký tài khoản và cài đặt phần mềm JEGA."
+- title: "Thiết lập không gian làm việc"
+  url: "https://www.youtube.com/watch?v=ZT1m2BMubBY"
+  summary: "Cách tùy chỉnh không gian làm việc cho phù hợp với nhu cầu."
+- title: "Các thao tác chuột và phím tắt cơ bản"
+  url: "https://www.youtube.com/watch?v=BmLmSRYOmNs"
+  summary: "Làm quen với thao tác điều khiển và phím tắt cơ bản."
+- title: "Vẽ tường và phân chia phòng"
+  url: "https://www.youtube.com/watch?v=kfVMTSrMpoE"
+  summary: "Cách vẽ tường, tạo phòng và điều chỉnh kích thước."
+- title: "Thêm cửa đi và cửa sổ"
+  url: "https://www.youtube.com/watch?v=BbL78TN1hrg"
+  summary: "Hướng dẫn chèn cửa đi, cửa sổ và tùy chỉnh thuộc tính."
+- title: "Sử dụng thư viện mẫu mặt bằng"
+  url: "https://www.youtube.com/watch?v=3Ybh6RPYnX0"
+  summary: "Khám phá và sử dụng các mẫu mặt bằng có sẵn."
+- title: "Đo đạc và ghi kích thước"
+  url: "https://www.youtube.com/watch?v=uk3LVNcp9rQ"
+  summary: "Công cụ đo đạc và cách ghi kích thước chuẩn xác."
+- title: "Chuyển từ 2D sang 3D"
+  url: "https://www.youtube.com/watch?v=SKlfVLBkLJc"
+  summary: "Chuyển đổi mô hình 2D thành không gian 3D."
+- title: "Sử dụng thư viện nội thất 3D"
+  url: "https://www.youtube.com/watch?v=i0WL9Hhf1lI"
+  summary: "Cách sử dụng thư viện nội thất 3D trong thiết kế."
+- title: "Tùy chỉnh vật liệu và màu sắc"
+  url: "https://www.youtube.com/watch?v=T5_L54mtdy4"
+  summary: "Thay đổi vật liệu, áp dụng màu sắc và họa tiết."
