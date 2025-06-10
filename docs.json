@@ -13,7 +13,7 @@
       {
         "tab": "API Reference",
         "openapi": {
-          "source": "/api-reference/openapi.json",
+          "source": "api-reference/openapi.json",
           "directory": "api-reference"
         }
       },
@@ -286,7 +286,7 @@
     "links": [
       {
         "label": "Hỗ trợ",
-        "href": "mailto:support@jega.vn?subject=H%E1%BB%97%20tr%E1%BB%A3%20JEGA&body=Ch%C3%A0o%20JEGA%20Support%2C%0A%0AT%C3%B4i%20c%E1%BA%A7n%20h%E1%BB%97%20tr%E1%BB%A3%20v%E1%BB%81%3A%0A%0A%5BVui%20l%C3%B2ng%20m%C3%B4%20t%E1%BA%A3%20v%E1%BA%A5n%20%C4%91%E1%BB%81%20c%E1%BB%A7a%20b%E1%BA%A1n%20t%E1%BA%A1i%20%C4%91%C3%A2y%5D%0A%0AC%E1%BA%A3m%20%C6%A1n."
+        "href": "mailto:info@jega.asia?subject=H%E1%BB%97%20tr%E1%BB%A3%20JEGA&body=Ch%C3%A0o%20JEGA%20Support%2C%0A%0AT%C3%B4i%20c%E1%BA%A7n%20h%E1%BB%97%20tr%E1%BB%A3%20v%E1%BB%81%3A%0A%0A%5BVui%20l%C3%B2ng%20m%C3%B4%20t%E1%BA%A3%20v%E1%BA%A5n%20%C4%91%E1%BB%81%20c%E1%BB%A7a%20b%E1%BA%A1n%20t%E1%BA%A1i%20%C4%91%E1%BB%82y%5D%0A%0AC%E1%BA%A3m%20%C6%A1n."
       }
     ],
     "primary": {

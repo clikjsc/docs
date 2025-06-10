@@ -141,6 +141,14 @@ Bài viết này cung cấp hướng dẫn chi tiết về cách sử dụng và
 ### Hỏi: Một tổ chức có thể tham gia bao nhiêu Vòng tròn?
 Đáp: Tối đa 10 Vòng tròn theo mặc định. Để tham gia nhiều hơn, vui lòng liên hệ bộ phận hỗ trợ khách hàng của Vòng tròn.
 
+## Thông tin liên hệ
+
+**Địa chỉ:** Tầng 2, toà Gems Office, 15 ngõ 11 Duy Tân, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam.
+
+**Email:** info@jega.asia
+
+**Số điện thoại:** 035.904.6888
+
 ## 1. Bảng Quản trị (Admin Panel)
 
 ### Đăng nhập vào Bảng Quản trị Design Circle:
@@ -1275,7 +1283,7 @@ Trước đây, việc lựa chọn đồ nội thất hoặc các vật phẩm 
 Tùy chọn menu **"Tô sáng Model Doanh nghiệp (Enterprise Model Highlight)"** đã được di chuyển ra khỏi mục **"Phụ kiện Nội thất (Furniture Accessories)"** và được đặt ở một vị trí dễ truy cập hơn trong giao diện.
 
 ![Minh họa vị trí mới của tùy chọn Tô sáng Model Doanh nghiệp](https://ai-study1.3vjia.com/aihouse-web/81b56c69-e30f-4863-82e1-a121161a83c5.png)
-IMAGE_DESCRIPTION_VI_1: Hình ảnh giao diện Jega cho thấy tùy chọn "Tô sáng Model Doanh nghiệp" (Enterprise Model Highlight) được đặt ở một vị trí mới, tách biệt khỏi mục "Phụ kiện Nội thất", giúp người dùng dễ dàng tìm và sử dụng hơn.
+IMAGE_DESCRIPTION_VI_1: Hình ảnh giao diện Jega cho thấy tùy chọn "Tô sáng Model Doanh nghiệp" được đặt ở một vị trí mới, tách biệt khỏi mục "Phụ kiện Nội thất", giúp người dùng dễ dàng tìm và sử dụng hơn.
 
 ### Lợi ích:
 *   **Dễ dàng truy cập:** Người dùng có thể nhanh chóng tìm thấy và kích hoạt/hủy kích hoạt tính năng tô sáng cho các model doanh nghiệp.
@@ -1892,7 +1900,7 @@ VIDEO_LESSONS_VI:
 - title: "Hướng dẫn Tạo mặt tủ bo trang trí"
   url: "https://www.youtube.com/watch?v=6MMs_uzE3cE"
   summary: "Video này sẽ giúp quý khách hàng nắm vững các thao tác để tùy chỉnh và thiết kế tủ nội thất với những đường nét mềm mại và tinh tế..."
-- title: "Video chuyển động phòng khách phong cách Trung Quốc"
+- title: "Video chuyển động phòng khách phong cáh Trung Quốc"
   url: "https://www.youtube.com/watch?v=0_vxEOtCv7Q"
   summary: "Video này giới thiệu một giải pháp phòng ngủ tinh tế, kết hợp hài hòa giữa sự tiện nghi và nét đẹp nghệ thuật."
 - title: "[Bài 10] Giới thiệu về thư viện JEGA và I72 | Đào tạo cơ bản"
@@ -1957,7 +1965,7 @@ VIDEO_LESSONS_VI:
   summary: "Video này sẽ giúp bạn dễ dàng đưa các bản vẽ có sẵn vào phần mềm, tối ưu hóa quy trình thiết kế và tăng hiệu quả công việc."
 - title: "JEGA MALL | Chuỗi cung ứng dành riêng cho ngành nội thất"
   url: "https://www.youtube.com/watch?v=TX6SMN0ecVM"
-  summary: "Nền tảng này không chỉ kết nối các kiến trúc sư với nguồn vật liệu và sản phẩm chất lượng cao, uy tín với giá cả ưu đãi, mà còn giúp các nhà cung cấp mở rộng thị trường..."
+  summary: "Nền tảng này không chỉ kết nối các kiến trúc sư với nguồn vật liệu và sản phẩm chất lượng cao, uy tín với giá cả ưu đãi, mà còn giúp các nhà
 - title: "Video Demo Thiết Kế Ngoại Thất"
   url: "https://www.youtube.com/watch?v=07dCGsNeF6U"
   summary: "Trong video này, chúng tôi sẽ giới thiệu chi tiết về quy trình thiết kế ngoại thất cho ngôi nhà hai tầng."
