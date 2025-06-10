@@ -1,0 +1,63 @@
+---
+title: 'Cài đặt Hiệu suất'
+description: 'Tìm hiểu về các tùy chọn cài đặt hiệu suất trong JEGA để tối ưu hóa trải nghiệm thiết kế của bạn, đặc biệt khi làm việc với các dự án lớn hoặc phức tạp.'
+icon: 'gauge-high'
+---
+
+# Cài đặt Hiệu suất (Performance Settings)
+
+## Giới thiệu
+
+JEGA cung cấp các tùy chọn Cài đặt Hiệu suất (Performance Settings) cho phép người dùng tùy chỉnh một số khía cạnh của phần mềm để tối ưu hóa tốc độ phản hồi và độ mượt mà, đặc biệt khi làm việc với các dự án lớn, phức tạp hoặc trên các máy tính có cấu hình khác nhau.
+
+## Các tùy chọn cài đặt hiệu suất thường gặp (ví dụ)
+
+Các tùy chọn cụ thể có thể thay đổi tùy theo phiên bản JEGA, nhưng thường bao gồm:
+
+- **Chất lượng hiển thị đồ họa (Graphics Display Quality)**:
+    - **Cao (High)**: Hiển thị đồ họa chi tiết nhất, vật liệu phức tạp, hiệu ứng đổ bóng nâng cao. Có thể yêu cầu cấu hình máy mạnh.
+    - **Trung bình (Medium)**: Cân bằng giữa chất lượng hiển thị và hiệu suất.
+    - **Thấp (Low)**: Giảm chi tiết đồ họa, tắt một số hiệu ứng để tăng tốc độ phản hồi, phù hợp cho máy cấu hình yếu hoặc khi làm việc với các mô hình rất lớn.
+- **Mức độ chi tiết của mô hình (Model Level of Detail - LOD)**:
+    - Tự động điều chỉnh mức độ chi tiết của các mô hình ở xa camera để giảm tải cho GPU.
+- **Chất lượng kết cấu (Texture Quality)**:
+    - Cho phép chọn độ phân giải của kết cấu được hiển thị trong không gian làm việc (không ảnh hưởng đến chất lượng kết xuất cuối cùng).
+- **Hiệu ứng đổ bóng thời gian thực (Real-time Shadows)**:
+    - Tùy chọn bật/tắt hoặc điều chỉnh chất lượng của bóng đổ được hiển thị trong thời gian thực.
+- **Khử răng cưa (Anti-aliasing)**:
+    - Điều chỉnh mức độ khử răng cưa để làm mượt các cạnh của đối tượng. Mức độ cao hơn có thể ảnh hưởng đến hiệu suất.
+- **Giới hạn số lượng đối tượng hiển thị chi tiết**: Trong các cảnh rất đông đối tượng, có thể có tùy chọn chỉ hiển thị chi tiết các đối tượng gần camera.
+- **Tối ưu hóa cho chế độ xem cụ thể**: Ví dụ, có thể có cài đặt riêng để tối ưu hóa hiệu suất khi ở chế độ xem 2D so với 3D.
+
+## Cách truy cập Cài đặt Hiệu suất
+
+1.  Mở menu **Cài đặt (Settings)** chính của JEGA.
+2.  Tìm mục có tên liên quan đến **"Hiệu suất" (Performance)**, **"Hiển thị" (Display)**, hoặc **"Đồ họa" (Graphics)**.
+3.  Trong đó, bạn sẽ tìm thấy các tùy chọn để điều chỉnh.
+
+## Khi nào cần điều chỉnh Cài đặt Hiệu suất?
+
+- **Phần mềm chạy chậm, giật lag**: Đây là dấu hiệu rõ ràng nhất cho thấy bạn cần giảm cài đặt hiệu suất.
+- **Làm việc với các dự án rất lớn**: Các dự án có nhiều mô hình, vật liệu phức tạp và nguồn sáng sẽ đòi hỏi nhiều tài nguyên hơn.
+- **Máy tính có cấu hình không cao**: Nếu card đồ họa hoặc RAM của bạn không mạnh, việc giảm cài đặt hiệu suất sẽ giúp phần mềm chạy ổn định hơn.
+- **Ưu tiên tốc độ làm việc hơn chất lượng hiển thị tạm thời**: Trong giai đoạn bố trí hoặc chỉnh sửa nhanh, bạn có thể muốn giảm chất lượng hiển thị để thao tác mượt mà hơn, sau đó tăng lại khi cần xem chi tiết.
+
+## Lợi ích
+
+- **Cải thiện độ mượt mà**: Giúp các thao tác như xoay camera, di chuyển đối tượng, và điều hướng trong không gian 3D trở nên mượt mà hơn.
+- **Giảm thời gian tải**: Có thể giúp giảm thời gian tải dự án hoặc các tài sản phức tạp.
+- **Tăng tính ổn định**: Giảm nguy cơ phần mềm bị treo hoặc thoát đột ngột trên các máy cấu hình yếu.
+- **Tùy chỉnh theo nhu vực ưu tiên**: Cho phép người dùng cân bằng giữa chất lượng hình ảnh trong quá trình làm việc và tốc độ phản hồi của phần mềm.
+
+## Lưu ý quan trọng
+
+- **Không ảnh hưởng đến kết xuất cuối cùng**: Hầu hết các cài đặt hiệu suất này chỉ ảnh hưởng đến chất lượng hiển thị trong không gian làm việc thời gian thực. Chất lượng của hình ảnh hoặc video kết xuất cuối cùng thường được kiểm soát bởi các cài đặt riêng trong trình kết xuất.
+- **Khởi động lại có thể cần thiết**: Một số thay đổi trong cài đặt hiệu suất có thể yêu cầu khởi động lại JEGA để có hiệu lực.
+- **Thử nghiệm để tìm cài đặt tối ưu**: Không có một bộ cài đặt nào là hoàn hảo cho tất cả mọi người và mọi máy tính. Hãy thử nghiệm với các tùy chọn khác nhau để tìm ra sự cân bằng phù hợp nhất cho bạn.
+
+## Hỗ trợ kỹ thuật
+
+Nếu bạn cần tư vấn về cách tối ưu hóa cài đặt hiệu suất cho hệ thống của mình, vui lòng liên hệ đội ngũ hỗ trợ của JEGA:
+
+- **Email:** support@jega.vn
+- **Hotline:** 1900 292 992
